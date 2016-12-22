@@ -17,11 +17,11 @@ limitations under the License.
 package serializer
 
 import (
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/runtime/serializer/json"
-	"k8s.io/client-go/pkg/runtime/serializer/recognizer"
-	"k8s.io/client-go/pkg/runtime/serializer/versioning"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/serializer/json"
+	"FlorianOtel/client-go/pkg/runtime/serializer/recognizer"
+	"FlorianOtel/client-go/pkg/runtime/serializer/versioning"
 )
 
 // serializerExtensions are for serializers that are conditionally compiled in

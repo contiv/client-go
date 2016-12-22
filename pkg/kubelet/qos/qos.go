@@ -17,10 +17,10 @@ limitations under the License.
 package qos
 
 import (
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/resource"
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/resource"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/util/sets"
 )
 
 // isResourceGuaranteed returns true if the container's resource requirements are Guaranteed.

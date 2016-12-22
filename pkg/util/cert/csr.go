@@ -25,8 +25,8 @@ import (
 	"errors"
 	"net"
 
-	"k8s.io/client-go/pkg/apis/certificates"
-	"k8s.io/client-go/pkg/apis/certificates/v1alpha1"
+	"FlorianOtel/client-go/pkg/apis/certificates"
+	"FlorianOtel/client-go/pkg/apis/certificates/v1alpha1"
 )
 
 // ParseCSR extracts the CSR from the API object and decodes it.

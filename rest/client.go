@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/flowcontrol"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/flowcontrol"
 )
 
 const (

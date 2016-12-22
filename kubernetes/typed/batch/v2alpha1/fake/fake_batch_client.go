@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	v2alpha1 "k8s.io/client-go/kubernetes/typed/batch/v2alpha1"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	v2alpha1 "FlorianOtel/client-go/kubernetes/typed/batch/v2alpha1"
+	rest "FlorianOtel/client-go/rest"
+	testing "FlorianOtel/client-go/testing"
 )
 
 type FakeBatchV2alpha1 struct {

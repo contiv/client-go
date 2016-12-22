@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/json"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/meta"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/meta"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 type ExampleSpec struct {

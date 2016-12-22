@@ -22,13 +22,13 @@ import (
 	"net/http"
 	"net/url"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/testapi"
-	"k8s.io/client-go/pkg/apimachinery/registered"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/flowcontrol"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/testapi"
+	"FlorianOtel/client-go/pkg/apimachinery/registered"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/flowcontrol"
+	"FlorianOtel/client-go/rest"
 )
 
 func CreateHTTPClient(roundTripper func(*http.Request) (*http.Response, error)) *http.Client {

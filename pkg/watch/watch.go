@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime"
 
 	"github.com/golang/glog"
 )

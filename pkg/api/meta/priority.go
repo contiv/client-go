@@ -19,7 +19,7 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 const (

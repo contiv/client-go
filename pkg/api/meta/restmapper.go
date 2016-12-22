@@ -22,8 +22,8 @@ import (
 	"sort"
 	"strings"
 
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // Implements RESTScope interface

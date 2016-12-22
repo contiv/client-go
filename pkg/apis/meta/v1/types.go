@@ -31,7 +31,7 @@ import (
 
 	"github.com/ugorji/go/codec"
 
-	"k8s.io/client-go/pkg/types"
+	"FlorianOtel/client-go/pkg/types"
 )
 
 // TypeMeta describes an individual object in an API response or request

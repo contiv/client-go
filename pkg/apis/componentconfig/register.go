@@ -17,8 +17,8 @@ limitations under the License.
 package componentconfig
 
 import (
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 var (

@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"github.com/imdario/mergo"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
 )
 
 func TestOldMergoLib(t *testing.T) {

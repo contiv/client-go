@@ -19,13 +19,13 @@ package v1
 import (
 	"errors"
 	"fmt"
-	"k8s.io/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api"
 	"net/url"
 	"strings"
 
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 var (

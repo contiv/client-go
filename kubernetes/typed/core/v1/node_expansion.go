@@ -17,8 +17,8 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/v1"
 )
 
 // The NodeExpansion interface allows manually adding extra methods to the NodeInterface.

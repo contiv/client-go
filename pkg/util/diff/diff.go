@@ -27,7 +27,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"k8s.io/client-go/pkg/util/validation/field"
+	"FlorianOtel/client-go/pkg/util/validation/field"
 )
 
 // StringDiff diffs a and b and returns a human readable diff.

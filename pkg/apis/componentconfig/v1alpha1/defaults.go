@@ -21,12 +21,12 @@ import (
 	"runtime"
 	"time"
 
-	"k8s.io/client-go/pkg/api"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/kubelet/qos"
-	kubetypes "k8s.io/client-go/pkg/kubelet/types"
-	"k8s.io/client-go/pkg/master/ports"
-	kruntime "k8s.io/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/api"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/kubelet/qos"
+	kubetypes "FlorianOtel/client-go/pkg/kubelet/types"
+	"FlorianOtel/client-go/pkg/master/ports"
+	kruntime "FlorianOtel/client-go/pkg/runtime"
 )
 
 const (

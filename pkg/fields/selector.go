@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"k8s.io/client-go/pkg/selection"
+	"FlorianOtel/client-go/pkg/selection"
 )
 
 // Selector represents a field selector.

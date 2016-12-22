@@ -21,14 +21,14 @@ import (
 	"math/rand"
 	"time"
 
-	"k8s.io/client-go/pkg/api/errors"
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/util/clock"
-	utilruntime "k8s.io/client-go/pkg/util/runtime"
-	"k8s.io/client-go/pkg/watch"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api/errors"
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/util/clock"
+	utilruntime "FlorianOtel/client-go/pkg/util/runtime"
+	"FlorianOtel/client-go/pkg/watch"
+	"FlorianOtel/client-go/rest"
 
 	"net/http"
 

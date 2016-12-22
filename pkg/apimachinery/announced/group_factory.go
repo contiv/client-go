@@ -21,13 +21,13 @@ import (
 
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/apimachinery"
-	"k8s.io/client-go/pkg/apimachinery/registered"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/apimachinery"
+	"FlorianOtel/client-go/pkg/apimachinery/registered"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/sets"
 )
 
 type SchemeFunc func(*runtime.Scheme) error

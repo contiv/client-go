@@ -25,16 +25,16 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/apis/meta/v1/unstructured"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/runtime/serializer/streaming"
-	"k8s.io/client-go/pkg/watch"
-	"k8s.io/client-go/pkg/watch/versioned"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/apis/meta/v1/unstructured"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/serializer/streaming"
+	"FlorianOtel/client-go/pkg/watch"
+	"FlorianOtel/client-go/pkg/watch/versioned"
+	"FlorianOtel/client-go/rest"
 )
 
 func getJSON(version, kind, name string) []byte {

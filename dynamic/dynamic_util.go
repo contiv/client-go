@@ -19,11 +19,11 @@ package dynamic
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/api/meta"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/apis/meta/v1/unstructured"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/api/meta"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/apis/meta/v1/unstructured"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // VersionInterfaces provides an object converter and metadata

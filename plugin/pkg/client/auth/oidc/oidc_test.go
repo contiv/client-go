@@ -33,9 +33,9 @@ import (
 	"github.com/coreos/go-oidc/key"
 	"github.com/coreos/go-oidc/oauth2"
 
-	"k8s.io/client-go/pkg/util/diff"
-	"k8s.io/client-go/pkg/util/wait"
-	oidctesting "k8s.io/client-go/plugin/pkg/auth/authenticator/token/oidc/testing"
+	"FlorianOtel/client-go/pkg/util/diff"
+	"FlorianOtel/client-go/pkg/util/wait"
+	oidctesting "FlorianOtel/client-go/plugin/pkg/auth/authenticator/token/oidc/testing"
 )
 
 func TestNewOIDCAuthProvider(t *testing.T) {

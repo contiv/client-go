@@ -17,12 +17,12 @@ limitations under the License.
 package v1alpha1
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	v1 "k8s.io/client-go/pkg/api/v1"
-	meta_v1 "k8s.io/client-go/pkg/apis/meta/v1"
-	v1alpha1 "k8s.io/client-go/pkg/apis/rbac/v1alpha1"
-	watch "k8s.io/client-go/pkg/watch"
-	rest "k8s.io/client-go/rest"
+	api "FlorianOtel/client-go/pkg/api"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	v1alpha1 "FlorianOtel/client-go/pkg/apis/rbac/v1alpha1"
+	watch "FlorianOtel/client-go/pkg/watch"
+	rest "FlorianOtel/client-go/rest"
 )
 
 // ClusterRolesGetter has a method to return a ClusterRoleInterface.

@@ -17,11 +17,11 @@ limitations under the License.
 package rbac
 
 import (
-	"k8s.io/client-go/pkg/api"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/watch/versioned"
+	"FlorianOtel/client-go/pkg/api"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/watch/versioned"
 )
 
 const GroupName = "rbac.authorization.k8s.io"

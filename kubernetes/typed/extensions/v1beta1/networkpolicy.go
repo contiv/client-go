@@ -17,12 +17,12 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	v1 "k8s.io/client-go/pkg/api/v1"
-	v1beta1 "k8s.io/client-go/pkg/apis/extensions/v1beta1"
-	meta_v1 "k8s.io/client-go/pkg/apis/meta/v1"
-	watch "k8s.io/client-go/pkg/watch"
-	rest "k8s.io/client-go/rest"
+	api "FlorianOtel/client-go/pkg/api"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	v1beta1 "FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
+	meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	watch "FlorianOtel/client-go/pkg/watch"
+	rest "FlorianOtel/client-go/rest"
 )
 
 // NetworkPoliciesGetter has a method to return a NetworkPolicyInterface.

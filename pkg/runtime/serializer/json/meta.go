@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // MetaFactory is used to store and retrieve the version and kind

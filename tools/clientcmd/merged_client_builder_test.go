@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	"FlorianOtel/client-go/rest"
+	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
 )
 
 type testLoader struct {

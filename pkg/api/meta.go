@@ -17,12 +17,12 @@ limitations under the License.
 package api
 
 import (
-	"k8s.io/client-go/pkg/api/meta"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/types"
-	"k8s.io/client-go/pkg/util/uuid"
+	"FlorianOtel/client-go/pkg/api/meta"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/types"
+	"FlorianOtel/client-go/pkg/util/uuid"
 )
 
 // FillObjectMetaSystemFields populates fields that are managed by the system on ObjectMeta.

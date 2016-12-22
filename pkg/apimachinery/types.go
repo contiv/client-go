@@ -19,9 +19,9 @@ package apimachinery
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // GroupMeta stores the metadata of a group.

@@ -21,8 +21,8 @@ limitations under the License.
 package v2alpha1
 
 import (
-	v1 "k8s.io/client-go/pkg/api/v1"
-	runtime "k8s.io/client-go/pkg/runtime"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	runtime "FlorianOtel/client-go/pkg/runtime"
 )
 
 // RegisterDefaults adds defaulters functions to the given scheme.

@@ -27,10 +27,10 @@ import (
 	"strings"
 	"sync"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/kubelet/server/portforward"
-	"k8s.io/client-go/pkg/util/httpstream"
-	"k8s.io/client-go/pkg/util/runtime"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/kubelet/server/portforward"
+	"FlorianOtel/client-go/pkg/util/httpstream"
+	"FlorianOtel/client-go/pkg/util/runtime"
 )
 
 // PortForwarder knows how to listen for local connections and forward them to

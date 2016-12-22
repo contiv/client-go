@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/util/wait"
-	"k8s.io/client-go/pkg/watch"
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/util/wait"
+	"FlorianOtel/client-go/pkg/watch"
 )
 
 var nevererrc chan error

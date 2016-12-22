@@ -19,7 +19,7 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // AmbiguousResourceError is returned if the RESTMapper finds multiple matches for a resource

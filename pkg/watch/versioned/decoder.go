@@ -19,9 +19,9 @@ package versioned
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/serializer/streaming"
-	"k8s.io/client-go/pkg/watch"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/serializer/streaming"
+	"FlorianOtel/client-go/pkg/watch"
 )
 
 // Decoder implements the watch.Decoder interface for io.ReadClosers that

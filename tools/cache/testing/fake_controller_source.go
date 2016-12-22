@@ -22,12 +22,12 @@ import (
 	"strconv"
 	"sync"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/types"
-	"k8s.io/client-go/pkg/watch"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/types"
+	"FlorianOtel/client-go/pkg/watch"
 )
 
 func NewFakeControllerSource() *FakeControllerSource {

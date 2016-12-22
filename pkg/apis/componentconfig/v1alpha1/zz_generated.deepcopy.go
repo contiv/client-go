@@ -21,9 +21,9 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1 "k8s.io/client-go/pkg/api/v1"
-	conversion "k8s.io/client-go/pkg/conversion"
-	runtime "k8s.io/client-go/pkg/runtime"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	runtime "FlorianOtel/client-go/pkg/runtime"
 	reflect "reflect"
 )
 

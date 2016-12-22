@@ -17,11 +17,11 @@ limitations under the License.
 package v1alpha1
 
 import (
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	versionedwatch "k8s.io/client-go/pkg/watch/versioned"
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	versionedwatch "FlorianOtel/client-go/pkg/watch/versioned"
 )
 
 // GroupName is the group name use in this package

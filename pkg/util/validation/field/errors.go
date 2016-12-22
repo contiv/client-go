@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"strings"
 
-	utilerrors "k8s.io/client-go/pkg/util/errors"
-	"k8s.io/client-go/pkg/util/sets"
+	utilerrors "FlorianOtel/client-go/pkg/util/errors"
+	"FlorianOtel/client-go/pkg/util/sets"
 )
 
 // Error is an implementation of the 'error' interface, which represents a

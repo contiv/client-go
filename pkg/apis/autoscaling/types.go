@@ -17,8 +17,8 @@ limitations under the License.
 package autoscaling
 
 import (
-	"k8s.io/client-go/pkg/api"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/api"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
 )
 
 // Scale represents a scaling request for a resource.

@@ -17,8 +17,8 @@ limitations under the License.
 package v1beta1
 
 import (
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) error {

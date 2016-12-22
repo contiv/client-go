@@ -21,12 +21,12 @@ import (
 
 	"github.com/emicklei/go-restful/swagger"
 
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/version"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/testing"
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/version"
+	"FlorianOtel/client-go/rest"
+	"FlorianOtel/client-go/testing"
 )
 
 type FakeDiscovery struct {

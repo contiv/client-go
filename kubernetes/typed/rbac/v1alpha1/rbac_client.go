@@ -18,11 +18,11 @@ package v1alpha1
 
 import (
 	fmt "fmt"
-	api "k8s.io/client-go/pkg/api"
-	registered "k8s.io/client-go/pkg/apimachinery/registered"
-	schema "k8s.io/client-go/pkg/runtime/schema"
-	serializer "k8s.io/client-go/pkg/runtime/serializer"
-	rest "k8s.io/client-go/rest"
+	api "FlorianOtel/client-go/pkg/api"
+	registered "FlorianOtel/client-go/pkg/apimachinery/registered"
+	schema "FlorianOtel/client-go/pkg/runtime/schema"
+	serializer "FlorianOtel/client-go/pkg/runtime/serializer"
+	rest "FlorianOtel/client-go/rest"
 )
 
 type RbacV1alpha1Interface interface {

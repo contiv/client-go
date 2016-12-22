@@ -19,8 +19,8 @@ package runtime
 import (
 	"errors"
 
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 type encodable struct {

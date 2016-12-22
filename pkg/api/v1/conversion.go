@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/apis/extensions"
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/util/validation/field"
-	"k8s.io/client-go/pkg/watch/versioned"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/apis/extensions"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/util/validation/field"
+	"FlorianOtel/client-go/pkg/watch/versioned"
 )
 
 const (

@@ -21,12 +21,12 @@ limitations under the License.
 package api
 
 import (
-	v1 "k8s.io/client-go/pkg/apis/meta/v1"
-	conversion "k8s.io/client-go/pkg/conversion"
-	fields "k8s.io/client-go/pkg/fields"
-	labels "k8s.io/client-go/pkg/labels"
-	runtime "k8s.io/client-go/pkg/runtime"
-	types "k8s.io/client-go/pkg/types"
+	v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	fields "FlorianOtel/client-go/pkg/fields"
+	labels "FlorianOtel/client-go/pkg/labels"
+	runtime "FlorianOtel/client-go/pkg/runtime"
+	types "FlorianOtel/client-go/pkg/types"
 	reflect "reflect"
 )
 

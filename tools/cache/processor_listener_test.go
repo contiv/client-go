@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/pkg/util/wait"
+	"FlorianOtel/client-go/pkg/util/wait"
 )
 
 // TestPopReleaseLock tests that when processor listener blocks on chan,

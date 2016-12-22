@@ -24,8 +24,8 @@ import (
 	"net/url"
 	"reflect"
 
-	"k8s.io/client-go/pkg/conversion/queryparams"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/conversion/queryparams"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // codec binds an encoder and decoder.

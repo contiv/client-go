@@ -21,9 +21,9 @@ limitations under the License.
 package v1alpha1
 
 import (
-	imagepolicy "k8s.io/client-go/pkg/apis/imagepolicy"
-	conversion "k8s.io/client-go/pkg/conversion"
-	runtime "k8s.io/client-go/pkg/runtime"
+	imagepolicy "FlorianOtel/client-go/pkg/apis/imagepolicy"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	runtime "FlorianOtel/client-go/pkg/runtime"
 	unsafe "unsafe"
 )
 

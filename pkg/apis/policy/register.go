@@ -17,9 +17,9 @@ limitations under the License.
 package policy
 
 import (
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // GroupName is the group name use in this package

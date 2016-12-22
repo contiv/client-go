@@ -94,10 +94,10 @@ import proto "github.com/gogo/protobuf/proto"
 import fmt "fmt"
 import math "math"
 
-import k8s_io_kubernetes_pkg_api_v1 "k8s.io/client-go/pkg/api/v1"
-import k8s_io_kubernetes_pkg_apis_meta_v1 "k8s.io/client-go/pkg/apis/meta/v1"
+import k8s_io_kubernetes_pkg_api_v1 "FlorianOtel/client-go/pkg/api/v1"
+import k8s_io_kubernetes_pkg_apis_meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
 
-import k8s_io_kubernetes_pkg_util_intstr "k8s.io/client-go/pkg/util/intstr"
+import k8s_io_kubernetes_pkg_util_intstr "FlorianOtel/client-go/pkg/util/intstr"
 
 import strings "strings"
 import reflect "reflect"

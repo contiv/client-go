@@ -19,7 +19,7 @@ package net
 import (
 	"strings"
 
-	"k8s.io/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/util/sets"
 )
 
 var validSchemes = sets.NewString("http", "https", "")

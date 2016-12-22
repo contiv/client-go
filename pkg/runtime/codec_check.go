@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // CheckCodec makes sure that the codec can encode objects like internalType,

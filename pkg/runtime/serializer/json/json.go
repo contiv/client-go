@@ -23,11 +23,11 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/ugorji/go/codec"
 
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/runtime/serializer/recognizer"
-	"k8s.io/client-go/pkg/util/framer"
-	utilyaml "k8s.io/client-go/pkg/util/yaml"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/serializer/recognizer"
+	"FlorianOtel/client-go/pkg/util/framer"
+	utilyaml "FlorianOtel/client-go/pkg/util/yaml"
 )
 
 // NewSerializer creates a JSON serializer that handles encoding versioned objects into the proper JSON form. If typer

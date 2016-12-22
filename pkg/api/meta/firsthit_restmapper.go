@@ -19,8 +19,8 @@ package meta
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/runtime/schema"
-	utilerrors "k8s.io/client-go/pkg/util/errors"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	utilerrors "FlorianOtel/client-go/pkg/util/errors"
 )
 
 // FirstHitRESTMapper is a wrapper for multiple RESTMappers which returns the

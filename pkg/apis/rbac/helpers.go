@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/sets"
 )
 
 func RoleRefGroupKind(roleRef RoleRef) schema.GroupKind {

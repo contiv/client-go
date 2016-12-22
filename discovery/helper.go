@@ -19,12 +19,12 @@ package discovery
 import (
 	"fmt"
 
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/sets"
-	"k8s.io/client-go/pkg/version"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/version"
 	// Import solely to initialize client auth plugins.
-	_ "k8s.io/client-go/plugin/pkg/client/auth"
+	_ "FlorianOtel/client-go/plugin/pkg/client/auth"
 )
 
 // MatchesServerVersion queries the server to compares the build version

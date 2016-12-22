@@ -4,20 +4,20 @@ import (
 	"flag"
 	"fmt"
 
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/errors"
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/pkg/apis/extensions/v1beta1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/runtime/serializer"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd"
+	"FlorianOtel/client-go/kubernetes"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/errors"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/serializer"
+	"FlorianOtel/client-go/rest"
+	"FlorianOtel/client-go/tools/clientcmd"
 
 	// Only required to authenticate against GKE clusters
-	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
+	_ "FlorianOtel/client-go/plugin/pkg/client/auth/gcp"
 )
 
 var (

@@ -17,7 +17,7 @@ limitations under the License.
 package conversion
 
 import (
-	"k8s.io/client-go/pkg/third_party/forked/golang/reflect"
+	"FlorianOtel/client-go/pkg/third_party/forked/golang/reflect"
 )
 
 // The code for this type must be located in third_party, since it forks from

@@ -23,9 +23,9 @@ import (
 	"reflect"
 	"strings"
 
-	utilerrors "k8s.io/client-go/pkg/util/errors"
-	"k8s.io/client-go/pkg/util/validation"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	utilerrors "FlorianOtel/client-go/pkg/util/errors"
+	"FlorianOtel/client-go/pkg/util/validation"
+	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
 )
 
 var (

@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/client-go/pkg/util/clock"
-	"k8s.io/client-go/pkg/util/integer"
+	"FlorianOtel/client-go/pkg/util/clock"
+	"FlorianOtel/client-go/pkg/util/integer"
 )
 
 type backoffEntry struct {

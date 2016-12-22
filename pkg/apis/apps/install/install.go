@@ -19,9 +19,9 @@ limitations under the License.
 package install
 
 import (
-	"k8s.io/client-go/pkg/apimachinery/announced"
-	"k8s.io/client-go/pkg/apis/apps"
-	"k8s.io/client-go/pkg/apis/apps/v1beta1"
+	"FlorianOtel/client-go/pkg/apimachinery/announced"
+	"FlorianOtel/client-go/pkg/apis/apps"
+	"FlorianOtel/client-go/pkg/apis/apps/v1beta1"
 )
 
 func init() {
@@ -29,7 +29,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  apps.GroupName,
 			VersionPreferenceOrder:     []string{v1beta1.SchemeGroupVersion.Version},
-			ImportPrefix:               "k8s.io/client-go/pkg/apis/apps",
+			ImportPrefix:               "FlorianOtel/client-go/pkg/apis/apps",
 			AddInternalObjectsToScheme: apps.AddToScheme,
 		},
 		announced.VersionToSchemeFunc{

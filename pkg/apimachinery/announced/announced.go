@@ -24,8 +24,8 @@ package announced
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/apimachinery/registered"
-	"k8s.io/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/apimachinery/registered"
+	"FlorianOtel/client-go/pkg/runtime"
 )
 
 var (

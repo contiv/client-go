@@ -20,7 +20,7 @@ import (
 	"io"
 	"net/url"
 
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 const (

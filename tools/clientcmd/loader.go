@@ -30,13 +30,13 @@ import (
 	"github.com/golang/glog"
 	"github.com/imdario/mergo"
 
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	utilerrors "k8s.io/client-go/pkg/util/errors"
-	"k8s.io/client-go/pkg/util/homedir"
-	"k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	clientcmdlatest "k8s.io/client-go/tools/clientcmd/api/latest"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	utilerrors "FlorianOtel/client-go/pkg/util/errors"
+	"FlorianOtel/client-go/pkg/util/homedir"
+	"FlorianOtel/client-go/rest"
+	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
+	clientcmdlatest "FlorianOtel/client-go/tools/clientcmd/api/latest"
 )
 
 const (

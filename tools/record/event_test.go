@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/pkg/api/errors"
-	_ "k8s.io/client-go/pkg/api/install" // To register api.Pod used in tests below
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	k8sruntime "k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/util/clock"
-	"k8s.io/client-go/pkg/util/strategicpatch"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api/errors"
+	_ "FlorianOtel/client-go/pkg/api/install" // To register api.Pod used in tests below
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	k8sruntime "FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/util/clock"
+	"FlorianOtel/client-go/pkg/util/strategicpatch"
+	"FlorianOtel/client-go/rest"
 )
 
 type testEventSink struct {

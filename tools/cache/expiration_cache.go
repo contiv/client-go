@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"k8s.io/client-go/pkg/util/clock"
+	"FlorianOtel/client-go/pkg/util/clock"
 )
 
 // ExpirationCache implements the store interface

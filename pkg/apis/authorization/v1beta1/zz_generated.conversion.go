@@ -21,9 +21,9 @@ limitations under the License.
 package v1beta1
 
 import (
-	authorization "k8s.io/client-go/pkg/apis/authorization"
-	conversion "k8s.io/client-go/pkg/conversion"
-	runtime "k8s.io/client-go/pkg/runtime"
+	authorization "FlorianOtel/client-go/pkg/apis/authorization"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	runtime "FlorianOtel/client-go/pkg/runtime"
 	unsafe "unsafe"
 )
 

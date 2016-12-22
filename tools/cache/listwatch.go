@@ -19,13 +19,13 @@ package cache
 import (
 	"time"
 
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/pkg/fields"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/watch"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/fields"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/watch"
+	"FlorianOtel/client-go/rest"
 )
 
 // ListerWatcher is any object that knows how to perform an initial list and start a watch on a resource.

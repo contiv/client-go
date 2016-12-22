@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // GroupResource specifies a Group and a Resource, but does not force a version.  This is useful for identifying

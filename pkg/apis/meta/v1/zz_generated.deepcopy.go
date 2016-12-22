@@ -21,7 +21,7 @@ limitations under the License.
 package v1
 
 import (
-	conversion "k8s.io/client-go/pkg/conversion"
+	conversion "FlorianOtel/client-go/pkg/conversion"
 	time "time"
 )
 

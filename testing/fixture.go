@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/client-go/pkg/api/errors"
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/apimachinery/registered"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/watch"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api/errors"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/apimachinery/registered"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/watch"
+	"FlorianOtel/client-go/rest"
 )
 
 // ObjectTracker keeps track of objects. It is intended to be used to

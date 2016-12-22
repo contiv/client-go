@@ -17,9 +17,9 @@ limitations under the License.
 package componentconfig
 
 import (
-	"k8s.io/client-go/pkg/api"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	utilconfig "k8s.io/client-go/pkg/util/config"
+	"FlorianOtel/client-go/pkg/api"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	utilconfig "FlorianOtel/client-go/pkg/util/config"
 )
 
 type KubeProxyConfiguration struct {

@@ -19,7 +19,7 @@ package cache
 import (
 	"testing"
 
-	"k8s.io/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/util/sets"
 )
 
 // Test public interface

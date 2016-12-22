@@ -25,12 +25,12 @@ import (
 
 	"github.com/emicklei/go-restful/swagger"
 
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/sets"
-	"k8s.io/client-go/pkg/version"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/version"
+	"FlorianOtel/client-go/rest"
 )
 
 func TestGetServerVersion(t *testing.T) {

@@ -26,11 +26,11 @@ import (
 
 	"github.com/golang/glog"
 
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/types"
-	"k8s.io/client-go/pkg/util/json"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/types"
+	"FlorianOtel/client-go/pkg/util/json"
 )
 
 // Unstructured allows objects that do not have Golang structs registered to be manipulated

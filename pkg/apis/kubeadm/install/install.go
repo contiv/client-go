@@ -17,9 +17,9 @@ limitations under the License.
 package install
 
 import (
-	"k8s.io/client-go/pkg/apimachinery/announced"
-	"k8s.io/client-go/pkg/apis/kubeadm"
-	"k8s.io/client-go/pkg/apis/kubeadm/v1alpha1"
+	"FlorianOtel/client-go/pkg/apimachinery/announced"
+	"FlorianOtel/client-go/pkg/apis/kubeadm"
+	"FlorianOtel/client-go/pkg/apis/kubeadm/v1alpha1"
 )
 
 func init() {
@@ -27,7 +27,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  kubeadm.GroupName,
 			VersionPreferenceOrder:     []string{v1alpha1.SchemeGroupVersion.Version},
-			ImportPrefix:               "k8s.io/client-go/pkg/apis/kubeadm",
+			ImportPrefix:               "FlorianOtel/client-go/pkg/apis/kubeadm",
 			AddInternalObjectsToScheme: kubeadm.AddToScheme,
 		},
 		announced.VersionToSchemeFunc{

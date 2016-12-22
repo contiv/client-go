@@ -17,8 +17,8 @@ limitations under the License.
 package meta
 
 import (
-	"k8s.io/client-go/pkg/apis/meta/v1/unstructured"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/apis/meta/v1/unstructured"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // InterfacesForUnstructured returns VersionInterfaces suitable for

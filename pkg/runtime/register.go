@@ -16,7 +16,7 @@ limitations under the License.
 
 package runtime
 
-import "k8s.io/client-go/pkg/runtime/schema"
+import "FlorianOtel/client-go/pkg/runtime/schema"
 
 // SetGroupVersionKind satisfies the ObjectKind interface for all objects that embed TypeMeta
 func (obj *TypeMeta) SetGroupVersionKind(gvk schema.GroupVersionKind) {

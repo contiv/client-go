@@ -17,10 +17,10 @@ limitations under the License.
 package versioned
 
 import (
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/watch"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/watch"
 )
 
 // WatchEventKind is name reserved for serializing watch events.

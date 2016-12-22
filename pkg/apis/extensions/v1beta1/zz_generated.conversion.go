@@ -21,14 +21,14 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	api_v1 "k8s.io/client-go/pkg/api/v1"
-	autoscaling "k8s.io/client-go/pkg/apis/autoscaling"
-	extensions "k8s.io/client-go/pkg/apis/extensions"
-	v1 "k8s.io/client-go/pkg/apis/meta/v1"
-	conversion "k8s.io/client-go/pkg/conversion"
-	runtime "k8s.io/client-go/pkg/runtime"
-	intstr "k8s.io/client-go/pkg/util/intstr"
+	api "FlorianOtel/client-go/pkg/api"
+	api_v1 "FlorianOtel/client-go/pkg/api/v1"
+	autoscaling "FlorianOtel/client-go/pkg/apis/autoscaling"
+	extensions "FlorianOtel/client-go/pkg/apis/extensions"
+	v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	runtime "FlorianOtel/client-go/pkg/runtime"
+	intstr "FlorianOtel/client-go/pkg/util/intstr"
 	unsafe "unsafe"
 )
 

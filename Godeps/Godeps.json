@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/client-go",
+	"ImportPath": "FlorianOtel/client-go",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v74",
 	"Packages": [

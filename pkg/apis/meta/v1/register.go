@@ -17,7 +17,7 @@ limitations under the License.
 package v1
 
 import (
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // GroupName is the group name for this API.

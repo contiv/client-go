@@ -34,13 +34,13 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	apierrs "k8s.io/client-go/pkg/api/errors"
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/pkg/runtime"
-	utilruntime "k8s.io/client-go/pkg/util/runtime"
-	"k8s.io/client-go/pkg/util/wait"
-	"k8s.io/client-go/pkg/watch"
+	apierrs "FlorianOtel/client-go/pkg/api/errors"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	utilruntime "FlorianOtel/client-go/pkg/util/runtime"
+	"FlorianOtel/client-go/pkg/util/wait"
+	"FlorianOtel/client-go/pkg/watch"
 )
 
 // Reflector watches a specified resource and causes all changes to be reflected in the given store.
@@ -149,8 +149,8 @@ func hasPackage(file string, ignoredPackages []string) bool {
 
 // trimPackagePrefix reduces duplicate values off the front of a package name.
 func trimPackagePrefix(file string) string {
-	if l := strings.LastIndex(file, "k8s.io/client-go/pkg/"); l >= 0 {
-		return file[l+len("k8s.io/client-go/"):]
+	if l := strings.LastIndex(file, "FlorianOtel/client-go/pkg/"); l >= 0 {
+		return file[l+len("FlorianOtel/client-go/"):]
 	}
 	if l := strings.LastIndex(file, "/src/"); l >= 0 {
 		return file[l+5:]

@@ -17,7 +17,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	certificates "k8s.io/client-go/pkg/apis/certificates/v1alpha1"
+	certificates "FlorianOtel/client-go/pkg/apis/certificates/v1alpha1"
 )
 
 type CertificateSigningRequestExpansion interface {

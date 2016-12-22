@@ -17,12 +17,12 @@ limitations under the License.
 package v2alpha1
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	v1 "k8s.io/client-go/pkg/api/v1"
-	v2alpha1 "k8s.io/client-go/pkg/apis/batch/v2alpha1"
-	meta_v1 "k8s.io/client-go/pkg/apis/meta/v1"
-	watch "k8s.io/client-go/pkg/watch"
-	rest "k8s.io/client-go/rest"
+	api "FlorianOtel/client-go/pkg/api"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	v2alpha1 "FlorianOtel/client-go/pkg/apis/batch/v2alpha1"
+	meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	watch "FlorianOtel/client-go/pkg/watch"
+	rest "FlorianOtel/client-go/rest"
 )
 
 // CronJobsGetter has a method to return a CronJobInterface.

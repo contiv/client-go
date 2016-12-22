@@ -17,12 +17,12 @@ limitations under the License.
 package latest
 
 import (
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/runtime/serializer/json"
-	"k8s.io/client-go/pkg/runtime/serializer/versioning"
-	"k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/tools/clientcmd/api/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/serializer/json"
+	"FlorianOtel/client-go/pkg/runtime/serializer/versioning"
+	"FlorianOtel/client-go/tools/clientcmd/api"
+	"FlorianOtel/client-go/tools/clientcmd/api/v1"
 )
 
 // Version is the string that represents the current external default version.

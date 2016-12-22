@@ -21,9 +21,9 @@ limitations under the License.
 package federation
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	conversion "k8s.io/client-go/pkg/conversion"
-	runtime "k8s.io/client-go/pkg/runtime"
+	api "FlorianOtel/client-go/pkg/api"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	runtime "FlorianOtel/client-go/pkg/runtime"
 	reflect "reflect"
 )
 

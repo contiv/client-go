@@ -21,8 +21,8 @@ import (
 	"net/url"
 	"reflect"
 
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // Scheme defines methods for serializing and deserializing API objects, a type

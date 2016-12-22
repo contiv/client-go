@@ -19,9 +19,9 @@ package v1
 import (
 	"sort"
 
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/tools/clientcmd/api"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/tools/clientcmd/api"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

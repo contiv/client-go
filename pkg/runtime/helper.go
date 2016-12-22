@@ -21,9 +21,9 @@ import (
 	"io"
 	"reflect"
 
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/errors"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/errors"
 )
 
 // unsafeObjectConvertor implements ObjectConvertor using the unsafe conversion path.

@@ -19,8 +19,8 @@ package v1
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/labels"
-	"k8s.io/client-go/pkg/selection"
+	"FlorianOtel/client-go/pkg/labels"
+	"FlorianOtel/client-go/pkg/selection"
 )
 
 // LabelSelectorAsSelector converts the LabelSelector api type into a struct that implements

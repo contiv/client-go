@@ -19,9 +19,9 @@ package versioning
 import (
 	"io"
 
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	utilruntime "k8s.io/client-go/pkg/util/runtime"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	utilruntime "FlorianOtel/client-go/pkg/util/runtime"
 )
 
 // NewCodecForScheme is a convenience method for callers that are using a scheme.

@@ -29,10 +29,10 @@ support is experimental.
 package extensions
 
 import (
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/resource"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/util/intstr"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/resource"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/util/intstr"
 )
 
 const (

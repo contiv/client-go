@@ -24,10 +24,10 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/runtime/serializer/recognizer"
-	"k8s.io/client-go/pkg/util/framer"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/runtime/serializer/recognizer"
+	"FlorianOtel/client-go/pkg/util/framer"
 )
 
 var (

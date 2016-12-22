@@ -17,13 +17,13 @@ limitations under the License.
 package fake
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	v1 "k8s.io/client-go/pkg/api/v1"
-	meta_v1 "k8s.io/client-go/pkg/apis/meta/v1"
-	labels "k8s.io/client-go/pkg/labels"
-	schema "k8s.io/client-go/pkg/runtime/schema"
-	watch "k8s.io/client-go/pkg/watch"
-	testing "k8s.io/client-go/testing"
+	api "FlorianOtel/client-go/pkg/api"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	labels "FlorianOtel/client-go/pkg/labels"
+	schema "FlorianOtel/client-go/pkg/runtime/schema"
+	watch "FlorianOtel/client-go/pkg/watch"
+	testing "FlorianOtel/client-go/testing"
 )
 
 // FakeReplicationControllers implements ReplicationControllerInterface

@@ -17,9 +17,9 @@ limitations under the License.
 package v1beta1
 
 import (
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/util/intstr"
+	"FlorianOtel/client-go/pkg/api/v1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/util/intstr"
 )
 
 // PodDisruptionBudgetSpec is a description of a PodDisruptionBudget.

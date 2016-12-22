@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/tools/clientcmd"
+	"FlorianOtel/client-go/kubernetes"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/tools/clientcmd"
 )
 
 var (

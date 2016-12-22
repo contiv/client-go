@@ -19,12 +19,12 @@ package cache
 import (
 	"testing"
 
-	apierrors "k8s.io/client-go/pkg/api/errors"
-	"k8s.io/client-go/pkg/api/v1"
-	extensions "k8s.io/client-go/pkg/apis/extensions/v1beta1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/labels"
-	"k8s.io/client-go/pkg/util/sets"
+	apierrors "FlorianOtel/client-go/pkg/api/errors"
+	"FlorianOtel/client-go/pkg/api/v1"
+	extensions "FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/labels"
+	"FlorianOtel/client-go/pkg/util/sets"
 )
 
 func TestStoreToNodeLister(t *testing.T) {

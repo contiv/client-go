@@ -19,9 +19,9 @@ package dynamic
 import (
 	"sync"
 
-	"k8s.io/client-go/pkg/api/meta"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/rest"
+	"FlorianOtel/client-go/pkg/api/meta"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/rest"
 )
 
 // ClientPool manages a pool of dynamic clients.

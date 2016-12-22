@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/testing"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/testing"
 )
 
 func (c *FakeNodes) PatchStatus(nodeName string, data []byte) (*v1.Node, error) {

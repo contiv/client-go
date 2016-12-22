@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/util/sets"
-	"k8s.io/client-go/pkg/util/wait"
-	"k8s.io/client-go/pkg/watch"
-	fcache "k8s.io/client-go/tools/cache/testing"
+	"FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/pkg/util/wait"
+	"FlorianOtel/client-go/pkg/watch"
+	fcache "FlorianOtel/client-go/tools/cache/testing"
 
 	"github.com/google/gofuzz"
 )

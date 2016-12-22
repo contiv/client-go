@@ -21,10 +21,10 @@ limitations under the License.
 package componentconfig
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	conversion "k8s.io/client-go/pkg/conversion"
-	runtime "k8s.io/client-go/pkg/runtime"
-	config "k8s.io/client-go/pkg/util/config"
+	api "FlorianOtel/client-go/pkg/api"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	runtime "FlorianOtel/client-go/pkg/runtime"
+	config "FlorianOtel/client-go/pkg/util/config"
 	reflect "reflect"
 )
 

@@ -26,17 +26,17 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/pkg/api"
-	"k8s.io/client-go/pkg/api/testapi"
-	"k8s.io/client-go/pkg/apimachinery/registered"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	uapi "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/runtime/schema"
-	"k8s.io/client-go/pkg/util/sets"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/rest/fake"
+	"FlorianOtel/client-go/discovery"
+	"FlorianOtel/client-go/pkg/api"
+	"FlorianOtel/client-go/pkg/api/testapi"
+	"FlorianOtel/client-go/pkg/apimachinery/registered"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	uapi "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/runtime/schema"
+	"FlorianOtel/client-go/pkg/util/sets"
+	"FlorianOtel/client-go/rest"
+	"FlorianOtel/client-go/rest/fake"
 )
 
 func objBody(object interface{}) io.ReadCloser {

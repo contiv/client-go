@@ -19,12 +19,12 @@ package v1beta1
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/api"
-	v1 "k8s.io/client-go/pkg/api/v1"
-	"k8s.io/client-go/pkg/apis/apps"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/conversion"
-	"k8s.io/client-go/pkg/runtime"
+	"FlorianOtel/client-go/pkg/api"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/apis/apps"
+	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"FlorianOtel/client-go/pkg/conversion"
+	"FlorianOtel/client-go/pkg/runtime"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

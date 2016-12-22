@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"time"
 
-	"k8s.io/client-go/pkg/util/runtime"
+	"FlorianOtel/client-go/pkg/util/runtime"
 )
 
 // For any test of the style:

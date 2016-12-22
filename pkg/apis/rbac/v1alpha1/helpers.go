@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"fmt"
 
-	"k8s.io/client-go/pkg/api/v1"
+	"FlorianOtel/client-go/pkg/api/v1"
 )
 
 // +k8s:deepcopy-gen=false

@@ -21,12 +21,12 @@ limitations under the License.
 package v1alpha1
 
 import (
-	api "k8s.io/client-go/pkg/api"
-	v1 "k8s.io/client-go/pkg/api/v1"
-	componentconfig "k8s.io/client-go/pkg/apis/componentconfig"
-	conversion "k8s.io/client-go/pkg/conversion"
-	runtime "k8s.io/client-go/pkg/runtime"
-	config "k8s.io/client-go/pkg/util/config"
+	api "FlorianOtel/client-go/pkg/api"
+	v1 "FlorianOtel/client-go/pkg/api/v1"
+	componentconfig "FlorianOtel/client-go/pkg/apis/componentconfig"
+	conversion "FlorianOtel/client-go/pkg/conversion"
+	runtime "FlorianOtel/client-go/pkg/runtime"
+	config "FlorianOtel/client-go/pkg/util/config"
 	unsafe "unsafe"
 )
 
