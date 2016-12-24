@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"FlorianOtel/client-go/pkg/util/wait"
+	"github.com/FlorianOtel/client-go/pkg/util/wait"
 )
 
 // TestPopReleaseLock tests that when processor listener blocks on chan,

@@ -19,10 +19,10 @@ package v1
 import (
 	"fmt"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/v1"
-	"FlorianOtel/client-go/pkg/fields"
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/FlorianOtel/client-go/pkg/fields"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 // The EventExpansion interface allows manually adding extra methods to the EventInterface.

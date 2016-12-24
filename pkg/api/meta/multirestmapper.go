@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	utilerrors "FlorianOtel/client-go/pkg/util/errors"
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	utilerrors "github.com/FlorianOtel/client-go/pkg/util/errors"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
 // MultiRESTMapper is a wrapper for multiple RESTMappers.

@@ -23,7 +23,7 @@ import (
 
 	"github.com/golang/glog"
 
-	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
+	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
 )
 
 type AuthProvider interface {

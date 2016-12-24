@@ -24,9 +24,9 @@ import (
 	"strings"
 
 	"github.com/golang/glog"
-	"FlorianOtel/client-go/pkg/selection"
-	"FlorianOtel/client-go/pkg/util/sets"
-	"FlorianOtel/client-go/pkg/util/validation"
+	"github.com/FlorianOtel/client-go/pkg/selection"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/util/validation"
 )
 
 // Requirements is AND of all requirements.

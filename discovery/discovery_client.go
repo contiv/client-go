@@ -25,15 +25,15 @@ import (
 
 	"github.com/emicklei/go-restful/swagger"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/errors"
-	"FlorianOtel/client-go/pkg/api/v1"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/runtime/serializer"
-	"FlorianOtel/client-go/pkg/version"
-	"FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/errors"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer"
+	"github.com/FlorianOtel/client-go/pkg/version"
+	"github.com/FlorianOtel/client-go/rest"
 )
 
 // defaultRetries is the number of times a resource discovery is repeated if an api group disappears on the fly (e.g. ThirdPartyResources).

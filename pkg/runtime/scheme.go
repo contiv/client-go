@@ -21,8 +21,8 @@ import (
 	"net/url"
 	"reflect"
 
-	"FlorianOtel/client-go/pkg/conversion"
-	"FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/conversion"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // Scheme defines methods for serializing and deserializing API objects, a type

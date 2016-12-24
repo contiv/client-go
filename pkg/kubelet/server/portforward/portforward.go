@@ -27,11 +27,11 @@ import (
 
 	"github.com/golang/glog"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/types"
-	"FlorianOtel/client-go/pkg/util/httpstream"
-	"FlorianOtel/client-go/pkg/util/httpstream/spdy"
-	utilruntime "FlorianOtel/client-go/pkg/util/runtime"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/types"
+	"github.com/FlorianOtel/client-go/pkg/util/httpstream"
+	"github.com/FlorianOtel/client-go/pkg/util/httpstream/spdy"
+	utilruntime "github.com/FlorianOtel/client-go/pkg/util/runtime"
 )
 
 // PortForwarder knows how to forward content from a data stream to/from a port

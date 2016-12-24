@@ -19,8 +19,8 @@ package record
 import (
 	"fmt"
 
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 // FakeRecorder is used as a fake during tests. It is thread safe. It is usable

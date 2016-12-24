@@ -19,12 +19,12 @@ package cache
 import (
 	"fmt"
 
-	"FlorianOtel/client-go/pkg/api/errors"
-	"FlorianOtel/client-go/pkg/api/v1"
-	extensionsinternal "FlorianOtel/client-go/pkg/apis/extensions"
-	extensions "FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/labels"
+	"github.com/FlorianOtel/client-go/pkg/api/errors"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	extensionsinternal "github.com/FlorianOtel/client-go/pkg/apis/extensions"
+	extensions "github.com/FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/labels"
 )
 
 //  TODO: generate these classes and methods for all resources of interest using

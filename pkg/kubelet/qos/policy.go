@@ -16,7 +16,7 @@ limitations under the License.
 
 package qos
 
-import "FlorianOtel/client-go/pkg/api/v1"
+import "github.com/FlorianOtel/client-go/pkg/api/v1"
 
 const (
 	// PodInfraOOMAdj is very docker specific. For arbitrary runtime, it may not make

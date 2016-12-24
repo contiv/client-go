@@ -29,10 +29,10 @@ support is experimental.
 package extensions
 
 import (
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/resource"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/util/intstr"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/resource"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/util/intstr"
 )
 
 const (

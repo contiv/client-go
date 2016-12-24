@@ -19,8 +19,8 @@ package api
 import (
 	"time"
 
-	"FlorianOtel/client-go/pkg/api/resource"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/api/resource"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
 )
 
 // Returns string version of ResourceName.

@@ -28,9 +28,9 @@ import (
 
 	"github.com/ghodss/yaml"
 
-	"FlorianOtel/client-go/pkg/runtime"
-	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
-	clientcmdlatest "FlorianOtel/client-go/tools/clientcmd/api/latest"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
+	clientcmdlatest "github.com/FlorianOtel/client-go/tools/clientcmd/api/latest"
 )
 
 var (

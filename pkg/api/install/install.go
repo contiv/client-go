@@ -23,17 +23,17 @@ import (
 
 	"github.com/golang/glog"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/meta"
-	"FlorianOtel/client-go/pkg/api/v1"
-	"FlorianOtel/client-go/pkg/apimachinery"
-	"FlorianOtel/client-go/pkg/apimachinery/registered"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/meta"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
-const importPrefix = "FlorianOtel/client-go/pkg/api"
+const importPrefix = "github.com/FlorianOtel/client-go/pkg/api"
 
 var accessor = meta.NewAccessor()
 

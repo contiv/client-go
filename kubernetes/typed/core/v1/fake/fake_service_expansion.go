@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	"FlorianOtel/client-go/rest"
-	"FlorianOtel/client-go/testing"
+	"github.com/FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/testing"
 )
 
 func (c *FakeServices) ProxyGet(scheme, name, port, path string, params map[string]string) rest.ResponseWrapper {

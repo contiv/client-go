@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"FlorianOtel/client-go/pkg/api/v1"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/util/clock"
-	"FlorianOtel/client-go/pkg/util/diff"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/util/clock"
+	"github.com/FlorianOtel/client-go/pkg/util/diff"
 )
 
 func makeObjectReference(kind, name, namespace string) v1.ObjectReference {

@@ -17,10 +17,10 @@ limitations under the License.
 package v1
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/util"
-	"FlorianOtel/client-go/pkg/util/intstr"
-	"FlorianOtel/client-go/pkg/util/parsers"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/util"
+	"github.com/FlorianOtel/client-go/pkg/util/intstr"
+	"github.com/FlorianOtel/client-go/pkg/util/parsers"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) error {

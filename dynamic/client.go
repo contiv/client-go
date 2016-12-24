@@ -26,17 +26,17 @@ import (
 	"net/url"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/v1"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/apis/meta/v1/unstructured"
-	"FlorianOtel/client-go/pkg/conversion/queryparams"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/runtime/serializer"
-	"FlorianOtel/client-go/pkg/util/flowcontrol"
-	"FlorianOtel/client-go/pkg/watch"
-	"FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/apis/meta/v1/unstructured"
+	"github.com/FlorianOtel/client-go/pkg/conversion/queryparams"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer"
+	"github.com/FlorianOtel/client-go/pkg/util/flowcontrol"
+	"github.com/FlorianOtel/client-go/pkg/watch"
+	"github.com/FlorianOtel/client-go/rest"
 )
 
 // Client is a Kubernetes client that allows you to access metadata

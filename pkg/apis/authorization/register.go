@@ -17,8 +17,8 @@ limitations under the License.
 package authorization
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // GroupName is the group name use in this package

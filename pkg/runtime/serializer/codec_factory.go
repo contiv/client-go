@@ -17,11 +17,11 @@ limitations under the License.
 package serializer
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/runtime/serializer/json"
-	"FlorianOtel/client-go/pkg/runtime/serializer/recognizer"
-	"FlorianOtel/client-go/pkg/runtime/serializer/versioning"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer/json"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer/recognizer"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer/versioning"
 )
 
 // serializerExtensions are for serializers that are conditionally compiled in

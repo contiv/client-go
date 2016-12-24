@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"sync"
 
-	"FlorianOtel/client-go/pkg/api/errors"
-	"FlorianOtel/client-go/pkg/api/meta"
-	"FlorianOtel/client-go/pkg/apimachinery/registered"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/watch"
-	"FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/pkg/api/errors"
+	"github.com/FlorianOtel/client-go/pkg/api/meta"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/watch"
+	"github.com/FlorianOtel/client-go/rest"
 )
 
 // ObjectTracker keeps track of objects. It is intended to be used to

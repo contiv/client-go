@@ -19,7 +19,7 @@ package v1beta1
 import (
 	"fmt"
 
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

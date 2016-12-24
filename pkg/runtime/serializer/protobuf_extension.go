@@ -17,8 +17,8 @@ limitations under the License.
 package serializer
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/serializer/protobuf"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer/protobuf"
 )
 
 const (

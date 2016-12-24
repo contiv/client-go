@@ -30,9 +30,9 @@ import (
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"FlorianOtel/client-go/pkg/util/jsonpath"
-	"FlorianOtel/client-go/pkg/util/yaml"
-	"FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/pkg/util/jsonpath"
+	"github.com/FlorianOtel/client-go/pkg/util/yaml"
+	"github.com/FlorianOtel/client-go/rest"
 )
 
 func init() {

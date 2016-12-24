@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"FlorianOtel/client-go/pkg/apimachinery/announced"
-	"FlorianOtel/client-go/pkg/apis/authentication"
-	"FlorianOtel/client-go/pkg/apis/authentication/v1beta1"
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/announced"
+	"github.com/FlorianOtel/client-go/pkg/apis/authentication"
+	"github.com/FlorianOtel/client-go/pkg/apis/authentication/v1beta1"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  authentication.GroupName,
 			VersionPreferenceOrder:     []string{v1beta1.SchemeGroupVersion.Version},
-			ImportPrefix:               "FlorianOtel/client-go/pkg/apis/authentication",
+			ImportPrefix:               "github.com/FlorianOtel/client-go/pkg/apis/authentication",
 			RootScopedKinds:            sets.NewString("TokenReview"),
 			AddInternalObjectsToScheme: authentication.AddToScheme,
 		},

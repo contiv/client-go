@@ -24,8 +24,8 @@ package announced
 import (
 	"fmt"
 
-	"FlorianOtel/client-go/pkg/apimachinery/registered"
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 var (

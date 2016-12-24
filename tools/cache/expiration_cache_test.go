@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"FlorianOtel/client-go/pkg/util/clock"
-	"FlorianOtel/client-go/pkg/util/sets"
-	"FlorianOtel/client-go/pkg/util/wait"
+	"github.com/FlorianOtel/client-go/pkg/util/clock"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/util/wait"
 )
 
 func TestTTLExpirationBasic(t *testing.T) {

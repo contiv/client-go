@@ -17,10 +17,10 @@ limitations under the License.
 package v1
 
 import (
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	versionedwatch "FlorianOtel/client-go/pkg/watch/versioned"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	versionedwatch "github.com/FlorianOtel/client-go/pkg/watch/versioned"
 )
 
 // GroupName is the group name use in this package

@@ -4,20 +4,20 @@ import (
 	"flag"
 	"fmt"
 
-	"FlorianOtel/client-go/kubernetes"
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/errors"
-	"FlorianOtel/client-go/pkg/api/v1"
-	"FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/runtime/serializer"
-	"FlorianOtel/client-go/rest"
-	"FlorianOtel/client-go/tools/clientcmd"
+	"github.com/FlorianOtel/client-go/kubernetes"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/errors"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer"
+	"github.com/FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/tools/clientcmd"
 
 	// Only required to authenticate against GKE clusters
-	_ "FlorianOtel/client-go/plugin/pkg/client/auth/gcp"
+	_ "github.com/FlorianOtel/client-go/plugin/pkg/client/auth/gcp"
 )
 
 var (

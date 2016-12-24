@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	certificates "FlorianOtel/client-go/pkg/apis/certificates/v1alpha1"
-	"FlorianOtel/client-go/testing"
+	certificates "github.com/FlorianOtel/client-go/pkg/apis/certificates/v1alpha1"
+	"github.com/FlorianOtel/client-go/testing"
 )
 
 func (c *FakeCertificateSigningRequests) UpdateApproval(certificateSigningRequest *certificates.CertificateSigningRequest) (result *certificates.CertificateSigningRequest, err error) {

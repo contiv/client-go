@@ -21,12 +21,12 @@ import (
 	"path"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/v1"
-	"FlorianOtel/client-go/pkg/fields"
-	"FlorianOtel/client-go/pkg/labels"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/FlorianOtel/client-go/pkg/fields"
+	"github.com/FlorianOtel/client-go/pkg/labels"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 func NewRootGetAction(resource schema.GroupVersionResource, name string) GetActionImpl {

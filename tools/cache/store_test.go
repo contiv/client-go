@@ -19,7 +19,7 @@ package cache
 import (
 	"testing"
 
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
 // Test public interface

@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"FlorianOtel/client-go/pkg/apimachinery/announced"
-	"FlorianOtel/client-go/pkg/apis/extensions"
-	"FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/announced"
+	"github.com/FlorianOtel/client-go/pkg/apis/extensions"
+	"github.com/FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  extensions.GroupName,
 			VersionPreferenceOrder:     []string{v1beta1.SchemeGroupVersion.Version},
-			ImportPrefix:               "FlorianOtel/client-go/pkg/apis/extensions",
+			ImportPrefix:               "github.com/FlorianOtel/client-go/pkg/apis/extensions",
 			RootScopedKinds:            sets.NewString("PodSecurityPolicy", "ThirdPartyResource"),
 			AddInternalObjectsToScheme: extensions.AddToScheme,
 		},

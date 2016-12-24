@@ -20,18 +20,18 @@ package kubernetes
 import (
 	"fmt"
 
-	_ "FlorianOtel/client-go/pkg/api/install"
-	"FlorianOtel/client-go/pkg/apimachinery/registered"
-	_ "FlorianOtel/client-go/pkg/apis/apps/install"
-	_ "FlorianOtel/client-go/pkg/apis/authentication/install"
-	_ "FlorianOtel/client-go/pkg/apis/authorization/install"
-	_ "FlorianOtel/client-go/pkg/apis/autoscaling/install"
-	_ "FlorianOtel/client-go/pkg/apis/batch/install"
-	_ "FlorianOtel/client-go/pkg/apis/certificates/install"
-	_ "FlorianOtel/client-go/pkg/apis/extensions/install"
-	_ "FlorianOtel/client-go/pkg/apis/policy/install"
-	_ "FlorianOtel/client-go/pkg/apis/rbac/install"
-	_ "FlorianOtel/client-go/pkg/apis/storage/install"
+	_ "github.com/FlorianOtel/client-go/pkg/api/install"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/apps/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/authentication/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/authorization/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/autoscaling/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/batch/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/certificates/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/extensions/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/policy/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/rbac/install"
+	_ "github.com/FlorianOtel/client-go/pkg/apis/storage/install"
 )
 
 func init() {

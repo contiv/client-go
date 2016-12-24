@@ -17,9 +17,9 @@ limitations under the License.
 package certificates
 
 import (
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 var (

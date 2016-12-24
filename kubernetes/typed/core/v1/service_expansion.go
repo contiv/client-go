@@ -17,8 +17,8 @@ limitations under the License.
 package v1
 
 import (
-	"FlorianOtel/client-go/pkg/util/net"
-	"FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/pkg/util/net"
+	"github.com/FlorianOtel/client-go/rest"
 )
 
 // The ServiceExpansion interface allows manually adding extra methods to the ServiceInterface.

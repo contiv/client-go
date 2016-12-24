@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"FlorianOtel/client-go/pkg/api/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/watch"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/watch"
 )
 
 func TestMutationDetector(t *testing.T) {

@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	clientauth "FlorianOtel/client-go/tools/auth"
+	clientauth "github.com/FlorianOtel/client-go/tools/auth"
 )
 
 func TestLoadFromFile(t *testing.T) {

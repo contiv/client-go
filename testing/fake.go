@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"sync"
 
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/version"
-	"FlorianOtel/client-go/pkg/watch"
-	"FlorianOtel/client-go/rest"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/version"
+	"github.com/FlorianOtel/client-go/pkg/watch"
+	"github.com/FlorianOtel/client-go/rest"
 )
 
 // Fake implements client.Interface. Meant to be embedded into a struct to get

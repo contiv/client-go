@@ -19,9 +19,9 @@ package versioned
 import (
 	"encoding/json"
 
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/serializer/streaming"
-	"FlorianOtel/client-go/pkg/watch"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/serializer/streaming"
+	"github.com/FlorianOtel/client-go/pkg/watch"
 )
 
 // Encoder serializes watch.Events into io.Writer. The internal objects

@@ -21,9 +21,9 @@ limitations under the License.
 package v1alpha1
 
 import (
-	certificates "FlorianOtel/client-go/pkg/apis/certificates"
-	conversion "FlorianOtel/client-go/pkg/conversion"
-	runtime "FlorianOtel/client-go/pkg/runtime"
+	certificates "github.com/FlorianOtel/client-go/pkg/apis/certificates"
+	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
+	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
 	unsafe "unsafe"
 )
 

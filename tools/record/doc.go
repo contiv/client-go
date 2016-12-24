@@ -15,4 +15,4 @@ limitations under the License.
 */
 
 // Package record has all client logic for recording and reporting events.
-package record // import "FlorianOtel/client-go/tools/record"
+package record // import "github.com/FlorianOtel/client-go/tools/record"

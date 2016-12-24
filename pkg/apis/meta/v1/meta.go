@@ -17,7 +17,7 @@ limitations under the License.
 package v1
 
 import (
-	"FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // ListMetaAccessor retrieves the list interface from an object

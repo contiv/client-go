@@ -17,14 +17,14 @@ limitations under the License.
 package fake
 
 import (
-	api "FlorianOtel/client-go/pkg/api"
-	api_v1 "FlorianOtel/client-go/pkg/api/v1"
-	v1 "FlorianOtel/client-go/pkg/apis/batch/v1"
-	meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	labels "FlorianOtel/client-go/pkg/labels"
-	schema "FlorianOtel/client-go/pkg/runtime/schema"
-	watch "FlorianOtel/client-go/pkg/watch"
-	testing "FlorianOtel/client-go/testing"
+	api "github.com/FlorianOtel/client-go/pkg/api"
+	api_v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
+	v1 "github.com/FlorianOtel/client-go/pkg/apis/batch/v1"
+	meta_v1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	labels "github.com/FlorianOtel/client-go/pkg/labels"
+	schema "github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	watch "github.com/FlorianOtel/client-go/pkg/watch"
+	testing "github.com/FlorianOtel/client-go/testing"
 )
 
 // FakeJobs implements JobInterface

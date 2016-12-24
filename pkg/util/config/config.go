@@ -19,7 +19,7 @@ package config
 import (
 	"sync"
 
-	"FlorianOtel/client-go/pkg/util/wait"
+	"github.com/FlorianOtel/client-go/pkg/util/wait"
 )
 
 type Merger interface {

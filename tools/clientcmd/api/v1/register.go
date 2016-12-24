@@ -17,8 +17,8 @@ limitations under the License.
 package v1
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // SchemeGroupVersion is group version used to register these objects

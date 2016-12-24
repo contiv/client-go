@@ -19,8 +19,8 @@ package cache
 import (
 	"fmt"
 
-	"FlorianOtel/client-go/pkg/api/meta"
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/api/meta"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
 // Indexer is a storage interface that lets you list objects using multiple indexing functions

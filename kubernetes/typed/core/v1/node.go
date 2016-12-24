@@ -17,11 +17,11 @@ limitations under the License.
 package v1
 
 import (
-	api "FlorianOtel/client-go/pkg/api"
-	v1 "FlorianOtel/client-go/pkg/api/v1"
-	meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	watch "FlorianOtel/client-go/pkg/watch"
-	rest "FlorianOtel/client-go/rest"
+	api "github.com/FlorianOtel/client-go/pkg/api"
+	v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
+	meta_v1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	watch "github.com/FlorianOtel/client-go/pkg/watch"
+	rest "github.com/FlorianOtel/client-go/rest"
 )
 
 // NodesGetter has a method to return a NodeInterface.

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	"FlorianOtel/client-go/rest"
-	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
+	"github.com/FlorianOtel/client-go/rest"
+	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
 )
 
 type testLoader struct {

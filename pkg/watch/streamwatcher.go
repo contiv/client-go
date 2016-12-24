@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	"github.com/golang/glog"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/util/net"
-	utilruntime "FlorianOtel/client-go/pkg/util/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/util/net"
+	utilruntime "github.com/FlorianOtel/client-go/pkg/util/runtime"
 )
 
 // Decoder allows StreamWatcher to watch any stream for which a Decoder can be written.

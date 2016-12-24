@@ -17,9 +17,9 @@ limitations under the License.
 package api
 
 import (
-	"FlorianOtel/client-go/pkg/fields"
-	"FlorianOtel/client-go/pkg/labels"
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/fields"
+	"github.com/FlorianOtel/client-go/pkg/labels"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) error {

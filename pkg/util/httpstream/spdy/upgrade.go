@@ -21,8 +21,8 @@ import (
 	"net/http"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/util/httpstream"
-	"FlorianOtel/client-go/pkg/util/runtime"
+	"github.com/FlorianOtel/client-go/pkg/util/httpstream"
+	"github.com/FlorianOtel/client-go/pkg/util/runtime"
 )
 
 const HeaderSpdy31 = "SPDY/3.1"

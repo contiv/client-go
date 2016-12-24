@@ -17,9 +17,9 @@ limitations under the License.
 package rbac
 
 import (
-	"FlorianOtel/client-go/pkg/api"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 // Authorization is calculated against

@@ -21,9 +21,9 @@ limitations under the License.
 package storage
 
 import (
-	api "FlorianOtel/client-go/pkg/api"
-	conversion "FlorianOtel/client-go/pkg/conversion"
-	runtime "FlorianOtel/client-go/pkg/runtime"
+	api "github.com/FlorianOtel/client-go/pkg/api"
+	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
+	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
 	reflect "reflect"
 )
 

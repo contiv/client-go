@@ -20,8 +20,8 @@ import (
 	"path"
 	"testing"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/apimachinery/registered"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
 )
 
 func TestValidatesHostParameter(t *testing.T) {

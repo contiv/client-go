@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/api/meta"
+	"github.com/FlorianOtel/client-go/pkg/api/meta"
 )
 
 // Store is a generic object storage interface. Reflector knows how to watch a server

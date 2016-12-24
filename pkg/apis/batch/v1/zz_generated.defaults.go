@@ -21,8 +21,8 @@ limitations under the License.
 package v1
 
 import (
-	api_v1 "FlorianOtel/client-go/pkg/api/v1"
-	runtime "FlorianOtel/client-go/pkg/runtime"
+	api_v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
+	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 // RegisterDefaults adds defaulters functions to the given scheme.

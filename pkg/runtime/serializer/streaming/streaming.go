@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
 )
 
 // Encoder is a runtime.Encoder on a stream.

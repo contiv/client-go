@@ -20,7 +20,7 @@ import (
 	"crypto/tls"
 	"net/http"
 
-	"FlorianOtel/client-go/transport"
+	"github.com/FlorianOtel/client-go/transport"
 )
 
 // TLSConfigFor returns a tls.Config that will provide the transport level security defined

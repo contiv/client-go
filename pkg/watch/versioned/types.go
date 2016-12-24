@@ -19,7 +19,7 @@ limitations under the License.
 package versioned
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 // Event represents a single event to a watched resource.

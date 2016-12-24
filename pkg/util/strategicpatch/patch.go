@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"sort"
 
-	forkedjson "FlorianOtel/client-go/pkg/third_party/forked/golang/json"
-	"FlorianOtel/client-go/pkg/util/json"
+	forkedjson "github.com/FlorianOtel/client-go/pkg/third_party/forked/golang/json"
+	"github.com/FlorianOtel/client-go/pkg/util/json"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ghodss/yaml"

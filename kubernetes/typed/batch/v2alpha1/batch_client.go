@@ -18,11 +18,11 @@ package v2alpha1
 
 import (
 	fmt "fmt"
-	api "FlorianOtel/client-go/pkg/api"
-	registered "FlorianOtel/client-go/pkg/apimachinery/registered"
-	schema "FlorianOtel/client-go/pkg/runtime/schema"
-	serializer "FlorianOtel/client-go/pkg/runtime/serializer"
-	rest "FlorianOtel/client-go/rest"
+	api "github.com/FlorianOtel/client-go/pkg/api"
+	registered "github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
+	schema "github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	serializer "github.com/FlorianOtel/client-go/pkg/runtime/serializer"
+	rest "github.com/FlorianOtel/client-go/rest"
 )
 
 type BatchV2alpha1Interface interface {

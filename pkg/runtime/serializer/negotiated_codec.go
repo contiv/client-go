@@ -17,7 +17,7 @@ limitations under the License.
 package serializer
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 // TODO: We should split negotiated serializers that we can change versions on from those we can change

@@ -22,8 +22,8 @@ import (
 
 	"github.com/golang/glog"
 
-	"FlorianOtel/client-go/rest"
-	clientcmdapi "FlorianOtel/client-go/tools/clientcmd/api"
+	"github.com/FlorianOtel/client-go/rest"
+	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
 )
 
 // DeferredLoadingClientConfig is a ClientConfig interface that is backed by a client config loader.

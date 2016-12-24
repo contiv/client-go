@@ -26,17 +26,17 @@ import (
 	"strings"
 	"testing"
 
-	"FlorianOtel/client-go/discovery"
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/testapi"
-	"FlorianOtel/client-go/pkg/apimachinery/registered"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	uapi "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/util/sets"
-	"FlorianOtel/client-go/rest"
-	"FlorianOtel/client-go/rest/fake"
+	"github.com/FlorianOtel/client-go/discovery"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/testapi"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	uapi "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/rest/fake"
 )
 
 func objBody(object interface{}) io.ReadCloser {

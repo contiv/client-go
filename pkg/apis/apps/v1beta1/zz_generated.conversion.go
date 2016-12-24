@@ -21,12 +21,12 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "FlorianOtel/client-go/pkg/api"
-	api_v1 "FlorianOtel/client-go/pkg/api/v1"
-	apps "FlorianOtel/client-go/pkg/apis/apps"
-	v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	conversion "FlorianOtel/client-go/pkg/conversion"
-	runtime "FlorianOtel/client-go/pkg/runtime"
+	api "github.com/FlorianOtel/client-go/pkg/api"
+	api_v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
+	apps "github.com/FlorianOtel/client-go/pkg/apis/apps"
+	v1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
+	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
 	unsafe "unsafe"
 )
 

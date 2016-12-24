@@ -21,10 +21,10 @@ limitations under the License.
 package v1
 
 import (
-	api_v1 "FlorianOtel/client-go/pkg/api/v1"
-	meta_v1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	conversion "FlorianOtel/client-go/pkg/conversion"
-	runtime "FlorianOtel/client-go/pkg/runtime"
+	api_v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
+	meta_v1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
+	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
 	reflect "reflect"
 )
 

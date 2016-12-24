@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
-	"FlorianOtel/client-go/kubernetes"
-	"FlorianOtel/client-go/pkg/api/v1"
-	"FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/kubernetes"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/FlorianOtel/client-go/rest"
 )
 
 func main() {

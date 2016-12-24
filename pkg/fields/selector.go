@@ -21,7 +21,7 @@ import (
 	"sort"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/selection"
+	"github.com/FlorianOtel/client-go/pkg/selection"
 )
 
 // Selector represents a field selector.

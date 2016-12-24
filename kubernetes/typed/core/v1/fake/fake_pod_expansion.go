@@ -17,10 +17,10 @@ limitations under the License.
 package fake
 
 import (
-	"FlorianOtel/client-go/pkg/api/v1"
-	policy "FlorianOtel/client-go/pkg/apis/policy/v1beta1"
-	"FlorianOtel/client-go/rest"
-	"FlorianOtel/client-go/testing"
+	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	policy "github.com/FlorianOtel/client-go/pkg/apis/policy/v1beta1"
+	"github.com/FlorianOtel/client-go/rest"
+	"github.com/FlorianOtel/client-go/testing"
 )
 
 func (c *FakePods) Bind(binding *v1.Binding) error {

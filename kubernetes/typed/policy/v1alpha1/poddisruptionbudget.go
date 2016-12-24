@@ -17,11 +17,11 @@ limitations under the License.
 package v1alpha1
 
 import (
-	api "FlorianOtel/client-go/pkg/api"
-	v1 "FlorianOtel/client-go/pkg/api/v1"
-	v1alpha1 "FlorianOtel/client-go/pkg/apis/policy/v1alpha1"
-	watch "FlorianOtel/client-go/pkg/watch"
-	rest "FlorianOtel/client-go/rest"
+	api "github.com/FlorianOtel/client-go/pkg/api"
+	v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
+	v1alpha1 "github.com/FlorianOtel/client-go/pkg/apis/policy/v1alpha1"
+	watch "github.com/FlorianOtel/client-go/pkg/watch"
+	rest "github.com/FlorianOtel/client-go/rest"
 )
 
 // PodDisruptionBudgetsGetter has a method to return a PodDisruptionBudgetInterface.

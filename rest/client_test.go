@@ -27,15 +27,15 @@ import (
 
 	"fmt"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/api/errors"
-	"FlorianOtel/client-go/pkg/api/testapi"
-	"FlorianOtel/client-go/pkg/apimachinery/registered"
-	metav1 "FlorianOtel/client-go/pkg/apis/meta/v1"
-	"FlorianOtel/client-go/pkg/runtime"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	"FlorianOtel/client-go/pkg/util/diff"
-	utiltesting "FlorianOtel/client-go/pkg/util/testing"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/api/errors"
+	"github.com/FlorianOtel/client-go/pkg/api/testapi"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
+	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/FlorianOtel/client-go/pkg/util/diff"
+	utiltesting "github.com/FlorianOtel/client-go/pkg/util/testing"
 )
 
 type TestParam struct {

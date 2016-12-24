@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"FlorianOtel/client-go/pkg/apimachinery/announced"
-	"FlorianOtel/client-go/pkg/apis/rbac"
-	"FlorianOtel/client-go/pkg/apis/rbac/v1alpha1"
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/apimachinery/announced"
+	"github.com/FlorianOtel/client-go/pkg/apis/rbac"
+	"github.com/FlorianOtel/client-go/pkg/apis/rbac/v1alpha1"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  rbac.GroupName,
 			VersionPreferenceOrder:     []string{v1alpha1.SchemeGroupVersion.Version},
-			ImportPrefix:               "FlorianOtel/client-go/pkg/apis/rbac",
+			ImportPrefix:               "github.com/FlorianOtel/client-go/pkg/apis/rbac",
 			RootScopedKinds:            sets.NewString("ClusterRole", "ClusterRoleBinding"),
 			AddInternalObjectsToScheme: rbac.AddToScheme,
 		},

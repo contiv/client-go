@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/api"
-	"FlorianOtel/client-go/pkg/fields"
-	"FlorianOtel/client-go/pkg/labels"
-	"FlorianOtel/client-go/pkg/selection"
-	"FlorianOtel/client-go/pkg/types"
-	"FlorianOtel/client-go/pkg/util/sets"
+	"github.com/FlorianOtel/client-go/pkg/api"
+	"github.com/FlorianOtel/client-go/pkg/fields"
+	"github.com/FlorianOtel/client-go/pkg/labels"
+	"github.com/FlorianOtel/client-go/pkg/selection"
+	"github.com/FlorianOtel/client-go/pkg/types"
+	"github.com/FlorianOtel/client-go/pkg/util/sets"
 )
 
 // IsOpaqueIntResourceName returns true if the resource name has the opaque

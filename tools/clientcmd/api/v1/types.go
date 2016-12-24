@@ -17,7 +17,7 @@ limitations under the License.
 package v1
 
 import (
-	"FlorianOtel/client-go/pkg/runtime"
+	"github.com/FlorianOtel/client-go/pkg/runtime"
 )
 
 // Where possible, json tags match the cli argument names.

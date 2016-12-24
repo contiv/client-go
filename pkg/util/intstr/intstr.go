@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"FlorianOtel/client-go/pkg/genericapiserver/openapi/common"
+	"github.com/FlorianOtel/client-go/pkg/genericapiserver/openapi/common"
 
 	"github.com/go-openapi/spec"
 	"github.com/golang/glog"

@@ -17,13 +17,13 @@ limitations under the License.
 package fake
 
 import (
-	api "FlorianOtel/client-go/pkg/api"
-	v1 "FlorianOtel/client-go/pkg/api/v1"
-	v1alpha1 "FlorianOtel/client-go/pkg/apis/policy/v1alpha1"
-	labels "FlorianOtel/client-go/pkg/labels"
-	"FlorianOtel/client-go/pkg/runtime/schema"
-	watch "FlorianOtel/client-go/pkg/watch"
-	testing "FlorianOtel/client-go/testing"
+	api "github.com/FlorianOtel/client-go/pkg/api"
+	v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
+	v1alpha1 "github.com/FlorianOtel/client-go/pkg/apis/policy/v1alpha1"
+	labels "github.com/FlorianOtel/client-go/pkg/labels"
+	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	watch "github.com/FlorianOtel/client-go/pkg/watch"
+	testing "github.com/FlorianOtel/client-go/testing"
 )
 
 // FakePodDisruptionBudgets implements PodDisruptionBudgetInterface
