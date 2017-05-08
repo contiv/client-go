@@ -26,17 +26,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlorianOtel/client-go/discovery"
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/testapi"
-	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	uapi "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
-	"github.com/FlorianOtel/client-go/rest"
-	"github.com/FlorianOtel/client-go/rest/fake"
+	"github.com/contiv/client-go/discovery"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/testapi"
+	"github.com/contiv/client-go/pkg/apimachinery/registered"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	uapi "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/rest"
+	"github.com/contiv/client-go/rest/fake"
 )
 
 func objBody(object interface{}) io.ReadCloser {

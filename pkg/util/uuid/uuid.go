@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	"github.com/pborman/uuid"
-	"github.com/FlorianOtel/client-go/pkg/types"
+	"github.com/contiv/client-go/pkg/types"
 )
 
 var uuidLock sync.Mutex

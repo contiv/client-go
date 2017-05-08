@@ -20,7 +20,7 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 const (

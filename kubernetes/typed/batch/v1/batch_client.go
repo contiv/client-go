@@ -18,11 +18,11 @@ package v1
 
 import (
 	fmt "fmt"
-	api "github.com/FlorianOtel/client-go/pkg/api"
-	registered "github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
-	schema "github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	serializer "github.com/FlorianOtel/client-go/pkg/runtime/serializer"
-	rest "github.com/FlorianOtel/client-go/rest"
+	api "github.com/contiv/client-go/pkg/api"
+	registered "github.com/contiv/client-go/pkg/apimachinery/registered"
+	schema "github.com/contiv/client-go/pkg/runtime/schema"
+	serializer "github.com/contiv/client-go/pkg/runtime/serializer"
+	rest "github.com/contiv/client-go/rest"
 )
 
 type BatchV1Interface interface {

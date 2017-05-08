@@ -21,11 +21,11 @@ limitations under the License.
 package v1beta1
 
 import (
-	api "github.com/FlorianOtel/client-go/pkg/api"
-	v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
-	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
-	federation "github.com/FlorianOtel/client-go/pkg/federation/apis/federation"
-	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
+	api "github.com/contiv/client-go/pkg/api"
+	v1 "github.com/contiv/client-go/pkg/api/v1"
+	conversion "github.com/contiv/client-go/pkg/conversion"
+	federation "github.com/contiv/client-go/pkg/federation/apis/federation"
+	runtime "github.com/contiv/client-go/pkg/runtime"
 	unsafe "unsafe"
 )
 

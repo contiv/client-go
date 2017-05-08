@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/api/v1"
 )
 
 // TODO: Reconcile custom types in kubelet/types and this subpackage

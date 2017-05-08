@@ -17,10 +17,10 @@ limitations under the License.
 package qos
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/resource"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/resource"
+	"github.com/contiv/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/util/sets"
 )
 
 // isResourceGuaranteed returns true if the container's resource requirements are Guaranteed.

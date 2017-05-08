@@ -17,8 +17,8 @@ limitations under the License.
 package meta
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/apis/meta/v1/unstructured"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/apis/meta/v1/unstructured"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 // InterfacesForUnstructured returns VersionInterfaces suitable for

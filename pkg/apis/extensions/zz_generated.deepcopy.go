@@ -21,11 +21,11 @@ limitations under the License.
 package extensions
 
 import (
-	api "github.com/FlorianOtel/client-go/pkg/api"
-	v1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
-	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
-	intstr "github.com/FlorianOtel/client-go/pkg/util/intstr"
+	api "github.com/contiv/client-go/pkg/api"
+	v1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	conversion "github.com/contiv/client-go/pkg/conversion"
+	runtime "github.com/contiv/client-go/pkg/runtime"
+	intstr "github.com/contiv/client-go/pkg/util/intstr"
 	reflect "reflect"
 )
 

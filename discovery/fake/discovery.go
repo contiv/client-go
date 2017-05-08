@@ -19,14 +19,14 @@ package fake
 import (
 	"fmt"
 
-	"github.com/emicklei/go-restful/swagger"
+	"github.com/emicklei/go-restful-swagger12"
 
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/version"
-	"github.com/FlorianOtel/client-go/rest"
-	"github.com/FlorianOtel/client-go/testing"
+	"github.com/contiv/client-go/pkg/api/v1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/version"
+	"github.com/contiv/client-go/rest"
+	"github.com/contiv/client-go/testing"
 )
 
 type FakeDiscovery struct {

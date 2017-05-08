@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/FlorianOtel/client-go/pkg/auth/user"
-	"github.com/FlorianOtel/client-go/pkg/types"
+	"github.com/contiv/client-go/pkg/auth/user"
+	"github.com/contiv/client-go/pkg/types"
 )
 
 // Context carries values across API boundaries.

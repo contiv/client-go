@@ -30,13 +30,13 @@ import (
 	"github.com/golang/glog"
 	"github.com/imdario/mergo"
 
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	utilerrors "github.com/FlorianOtel/client-go/pkg/util/errors"
-	"github.com/FlorianOtel/client-go/pkg/util/homedir"
-	"github.com/FlorianOtel/client-go/rest"
-	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
-	clientcmdlatest "github.com/FlorianOtel/client-go/tools/clientcmd/api/latest"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	utilerrors "github.com/contiv/client-go/pkg/util/errors"
+	"github.com/contiv/client-go/pkg/util/homedir"
+	"github.com/contiv/client-go/rest"
+	clientcmdapi "github.com/contiv/client-go/tools/clientcmd/api"
+	clientcmdlatest "github.com/contiv/client-go/tools/clientcmd/api/latest"
 )
 
 const (

@@ -19,15 +19,15 @@ package api
 import (
 	"fmt"
 
-	"github.com/FlorianOtel/client-go/pkg/api/resource"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/conversion"
-	"github.com/FlorianOtel/client-go/pkg/fields"
-	"github.com/FlorianOtel/client-go/pkg/labels"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/util/intstr"
-	utillabels "github.com/FlorianOtel/client-go/pkg/util/labels"
-	"github.com/FlorianOtel/client-go/pkg/util/validation/field"
+	"github.com/contiv/client-go/pkg/api/resource"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/conversion"
+	"github.com/contiv/client-go/pkg/fields"
+	"github.com/contiv/client-go/pkg/labels"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/util/intstr"
+	utillabels "github.com/contiv/client-go/pkg/util/labels"
+	"github.com/contiv/client-go/pkg/util/validation/field"
 )
 
 func addConversionFuncs(scheme *runtime.Scheme) error {

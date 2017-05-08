@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/FlorianOtel/client-go/pkg/genericapiserver/openapi/common"
+	"github.com/contiv/client-go/pkg/genericapiserver/openapi/common"
 
 	"github.com/go-openapi/spec"
 	"github.com/google/gofuzz"

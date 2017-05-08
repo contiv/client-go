@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 type RecognizingDecoder interface {

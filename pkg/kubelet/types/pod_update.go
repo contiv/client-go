@@ -19,7 +19,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/api/v1"
 )
 
 const ConfigSourceAnnotationKey = "kubernetes.io/config.source"

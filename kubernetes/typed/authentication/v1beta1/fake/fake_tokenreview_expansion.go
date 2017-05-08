@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	authenticationapi "github.com/FlorianOtel/client-go/pkg/apis/authentication/v1beta1"
-	"github.com/FlorianOtel/client-go/testing"
+	authenticationapi "github.com/contiv/client-go/pkg/apis/authentication/v1beta1"
+	"github.com/contiv/client-go/testing"
 )
 
 func (c *FakeTokenReviews) Create(tokenReview *authenticationapi.TokenReview) (result *authenticationapi.TokenReview, err error) {

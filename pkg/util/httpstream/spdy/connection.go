@@ -24,7 +24,7 @@ import (
 
 	"github.com/docker/spdystream"
 	"github.com/golang/glog"
-	"github.com/FlorianOtel/client-go/pkg/util/httpstream"
+	"github.com/contiv/client-go/pkg/util/httpstream"
 )
 
 // connection maintains state about a spdystream.Connection and its associated

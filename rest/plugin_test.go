@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"testing"
 
-	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
+	clientcmdapi "github.com/contiv/client-go/tools/clientcmd/api"
 )
 
 func TestAuthPluginWrapTransport(t *testing.T) {

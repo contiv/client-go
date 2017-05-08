@@ -19,8 +19,8 @@ package dynamic
 import (
 	"testing"
 
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 func TestDiscoveryRESTMapper(t *testing.T) {

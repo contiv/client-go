@@ -4,20 +4,20 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/FlorianOtel/client-go/kubernetes"
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/errors"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	"github.com/FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/runtime/serializer"
-	"github.com/FlorianOtel/client-go/rest"
-	"github.com/FlorianOtel/client-go/tools/clientcmd"
+	"github.com/contiv/client-go/kubernetes"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/errors"
+	"github.com/contiv/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/apis/extensions/v1beta1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/runtime/serializer"
+	"github.com/contiv/client-go/rest"
+	"github.com/contiv/client-go/tools/clientcmd"
 
 	// Only required to authenticate against GKE clusters
-	_ "github.com/FlorianOtel/client-go/plugin/pkg/client/auth/gcp"
+	_ "github.com/contiv/client-go/plugin/pkg/client/auth/gcp"
 )
 
 var (

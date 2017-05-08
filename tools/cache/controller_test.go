@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
-	"github.com/FlorianOtel/client-go/pkg/util/wait"
-	"github.com/FlorianOtel/client-go/pkg/watch"
-	fcache "github.com/FlorianOtel/client-go/tools/cache/testing"
+	"github.com/contiv/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/util/wait"
+	"github.com/contiv/client-go/pkg/watch"
+	fcache "github.com/contiv/client-go/tools/cache/testing"
 
 	"github.com/google/gofuzz"
 )

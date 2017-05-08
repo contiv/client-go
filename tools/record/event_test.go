@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlorianOtel/client-go/pkg/api/errors"
-	_ "github.com/FlorianOtel/client-go/pkg/api/install" // To register api.Pod used in tests below
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	k8sruntime "github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/util/clock"
-	"github.com/FlorianOtel/client-go/pkg/util/strategicpatch"
-	"github.com/FlorianOtel/client-go/rest"
+	"github.com/contiv/client-go/pkg/api/errors"
+	_ "github.com/contiv/client-go/pkg/api/install" // To register api.Pod used in tests below
+	"github.com/contiv/client-go/pkg/api/v1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	k8sruntime "github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/util/clock"
+	"github.com/contiv/client-go/pkg/util/strategicpatch"
+	"github.com/contiv/client-go/rest"
 )
 
 type testEventSink struct {

@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	policy "github.com/FlorianOtel/client-go/pkg/apis/policy/v1beta1"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	testing "github.com/FlorianOtel/client-go/testing"
+	policy "github.com/contiv/client-go/pkg/apis/policy/v1beta1"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	testing "github.com/contiv/client-go/testing"
 )
 
 func (c *FakeEvictions) Evict(eviction *policy.Eviction) error {

@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	clientauth "github.com/FlorianOtel/client-go/tools/auth"
+	clientauth "github.com/contiv/client-go/tools/auth"
 )
 
 func TestLoadFromFile(t *testing.T) {

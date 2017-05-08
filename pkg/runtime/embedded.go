@@ -19,8 +19,8 @@ package runtime
 import (
 	"errors"
 
-	"github.com/FlorianOtel/client-go/pkg/conversion"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/conversion"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 type encodable struct {

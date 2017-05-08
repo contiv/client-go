@@ -25,14 +25,14 @@ import (
 
 	fuzz "github.com/google/gofuzz"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/testapi"
-	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/util/diff"
-	"github.com/FlorianOtel/client-go/pkg/util/flowcontrol"
-	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/testapi"
+	"github.com/contiv/client-go/pkg/apimachinery/registered"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/util/diff"
+	"github.com/contiv/client-go/pkg/util/flowcontrol"
+	clientcmdapi "github.com/contiv/client-go/tools/clientcmd/api"
 )
 
 func TestIsConfigTransportTLS(t *testing.T) {

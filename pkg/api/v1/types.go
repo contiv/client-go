@@ -17,11 +17,11 @@ limitations under the License.
 package v1
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/api/resource"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/types"
-	"github.com/FlorianOtel/client-go/pkg/util/intstr"
+	"github.com/contiv/client-go/pkg/api/resource"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/types"
+	"github.com/contiv/client-go/pkg/util/intstr"
 )
 
 // The comments for the structs and fields can be used from go-restful to

@@ -17,8 +17,8 @@ limitations under the License.
 package federation
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/api"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/api"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
 )
 
 // ServerAddressByClientCIDR helps the client to determine the server address that they should use, depending on the clientCIDR that they match.

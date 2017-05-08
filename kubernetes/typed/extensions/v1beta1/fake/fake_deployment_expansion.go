@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
-	"github.com/FlorianOtel/client-go/testing"
+	"github.com/contiv/client-go/pkg/apis/extensions/v1beta1"
+	"github.com/contiv/client-go/testing"
 )
 
 func (c *FakeDeployments) Rollback(deploymentRollback *v1beta1.DeploymentRollback) error {

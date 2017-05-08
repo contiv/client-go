@@ -17,9 +17,9 @@ limitations under the License.
 package v1
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/api/meta"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/types"
+	"github.com/contiv/client-go/pkg/api/meta"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/types"
 )
 
 func (obj *ObjectMeta) GetObjectMeta() meta.Object { return obj }
