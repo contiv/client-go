@@ -19,9 +19,9 @@ package dynamic
 import (
 	"sync"
 
-	"github.com/FlorianOtel/client-go/pkg/api/meta"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/rest"
+	"github.com/contiv/client-go/pkg/api/meta"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/rest"
 )
 
 // ClientPool manages a pool of dynamic clients.

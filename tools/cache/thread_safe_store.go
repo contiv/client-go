@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/util/sets"
 )
 
 // ThreadSafeStore is an interface that allows concurrent access to a storage backend.

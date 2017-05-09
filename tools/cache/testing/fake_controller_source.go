@@ -22,12 +22,12 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/meta"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/types"
-	"github.com/FlorianOtel/client-go/pkg/watch"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/meta"
+	"github.com/contiv/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/types"
+	"github.com/contiv/client-go/pkg/watch"
 )
 
 func NewFakeControllerSource() *FakeControllerSource {

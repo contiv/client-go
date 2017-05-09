@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	v1beta1 "github.com/FlorianOtel/client-go/kubernetes/typed/extensions/v1beta1"
-	rest "github.com/FlorianOtel/client-go/rest"
-	testing "github.com/FlorianOtel/client-go/testing"
+	v1beta1 "github.com/contiv/client-go/kubernetes/typed/extensions/v1beta1"
+	rest "github.com/contiv/client-go/rest"
+	testing "github.com/contiv/client-go/testing"
 )
 
 type FakeExtensionsV1beta1 struct {

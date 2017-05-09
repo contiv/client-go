@@ -19,12 +19,12 @@ package cache
 import (
 	"testing"
 
-	apierrors "github.com/FlorianOtel/client-go/pkg/api/errors"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	extensions "github.com/FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/labels"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	apierrors "github.com/contiv/client-go/pkg/api/errors"
+	"github.com/contiv/client-go/pkg/api/v1"
+	extensions "github.com/contiv/client-go/pkg/apis/extensions/v1beta1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/labels"
+	"github.com/contiv/client-go/pkg/util/sets"
 )
 
 func TestStoreToNodeLister(t *testing.T) {

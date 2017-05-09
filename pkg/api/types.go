@@ -17,13 +17,13 @@ limitations under the License.
 package api
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/api/resource"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/fields"
-	"github.com/FlorianOtel/client-go/pkg/labels"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/types"
-	"github.com/FlorianOtel/client-go/pkg/util/intstr"
+	"github.com/contiv/client-go/pkg/api/resource"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/fields"
+	"github.com/contiv/client-go/pkg/labels"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/types"
+	"github.com/contiv/client-go/pkg/util/intstr"
 )
 
 // Common string formats

@@ -16,4 +16,4 @@ limitations under the License.
 
 // Package portforward adds support for SSH-like port forwarding from the client's
 // local host to remote containers.
-package portforward // import "github.com/FlorianOtel/client-go/tools/portforward"
+package portforward // import "github.com/contiv/client-go/tools/portforward"

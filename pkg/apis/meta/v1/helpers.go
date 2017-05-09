@@ -19,8 +19,8 @@ package v1
 import (
 	"fmt"
 
-	"github.com/FlorianOtel/client-go/pkg/labels"
-	"github.com/FlorianOtel/client-go/pkg/selection"
+	"github.com/contiv/client-go/pkg/labels"
+	"github.com/contiv/client-go/pkg/selection"
 )
 
 // LabelSelectorAsSelector converts the LabelSelector api type into a struct that implements

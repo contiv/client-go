@@ -21,14 +21,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/FlorianOtel/client-go/pkg/api/errors"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/util/clock"
-	utilruntime "github.com/FlorianOtel/client-go/pkg/util/runtime"
-	"github.com/FlorianOtel/client-go/pkg/watch"
-	"github.com/FlorianOtel/client-go/rest"
+	"github.com/contiv/client-go/pkg/api/errors"
+	"github.com/contiv/client-go/pkg/api/v1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/util/clock"
+	utilruntime "github.com/contiv/client-go/pkg/util/runtime"
+	"github.com/contiv/client-go/pkg/watch"
+	"github.com/contiv/client-go/rest"
 
 	"net/http"
 

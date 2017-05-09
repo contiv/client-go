@@ -17,10 +17,10 @@ limitations under the License.
 package v1
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	policy "github.com/FlorianOtel/client-go/pkg/apis/policy/v1beta1"
-	"github.com/FlorianOtel/client-go/rest"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/v1"
+	policy "github.com/contiv/client-go/pkg/apis/policy/v1beta1"
+	"github.com/contiv/client-go/rest"
 )
 
 // The PodExpansion interface allows manually adding extra methods to the PodInterface.

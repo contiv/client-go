@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FlorianOtel/client-go/pkg/util/flowcontrol"
+	"github.com/contiv/client-go/pkg/util/flowcontrol"
 )
 
 func parse(raw string) *url.URL {

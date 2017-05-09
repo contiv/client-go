@@ -17,7 +17,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime"
 )
 
 const (

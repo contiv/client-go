@@ -21,12 +21,12 @@ limitations under the License.
 package v1alpha1
 
 import (
-	api "github.com/FlorianOtel/client-go/pkg/api"
-	v1 "github.com/FlorianOtel/client-go/pkg/api/v1"
-	componentconfig "github.com/FlorianOtel/client-go/pkg/apis/componentconfig"
-	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
-	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
-	config "github.com/FlorianOtel/client-go/pkg/util/config"
+	api "github.com/contiv/client-go/pkg/api"
+	v1 "github.com/contiv/client-go/pkg/api/v1"
+	componentconfig "github.com/contiv/client-go/pkg/apis/componentconfig"
+	conversion "github.com/contiv/client-go/pkg/conversion"
+	runtime "github.com/contiv/client-go/pkg/runtime"
+	config "github.com/contiv/client-go/pkg/util/config"
 	unsafe "unsafe"
 )
 

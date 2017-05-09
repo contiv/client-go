@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/FlorianOtel/client-go/pkg/api/meta"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/api/meta"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 var (

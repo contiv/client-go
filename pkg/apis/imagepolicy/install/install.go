@@ -19,10 +19,10 @@ limitations under the License.
 package install
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/apimachinery/announced"
-	"github.com/FlorianOtel/client-go/pkg/apis/imagepolicy"
-	"github.com/FlorianOtel/client-go/pkg/apis/imagepolicy/v1alpha1"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/apimachinery/announced"
+	"github.com/contiv/client-go/pkg/apis/imagepolicy"
+	"github.com/contiv/client-go/pkg/apis/imagepolicy/v1alpha1"
+	"github.com/contiv/client-go/pkg/util/sets"
 )
 
 func init() {
@@ -30,7 +30,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  imagepolicy.GroupName,
 			VersionPreferenceOrder:     []string{v1alpha1.SchemeGroupVersion.Version},
-			ImportPrefix:               "github.com/FlorianOtel/client-go/pkg/apis/imagepolicy",
+			ImportPrefix:               "github.com/contiv/client-go/pkg/apis/imagepolicy",
 			RootScopedKinds:            sets.NewString("ImageReview"),
 			AddInternalObjectsToScheme: imagepolicy.AddToScheme,
 		},

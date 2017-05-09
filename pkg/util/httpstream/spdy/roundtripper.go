@@ -28,11 +28,11 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	apierrors "github.com/FlorianOtel/client-go/pkg/api/errors"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/third_party/forked/golang/netutil"
-	"github.com/FlorianOtel/client-go/pkg/util/httpstream"
+	"github.com/contiv/client-go/pkg/api"
+	apierrors "github.com/contiv/client-go/pkg/api/errors"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/third_party/forked/golang/netutil"
+	"github.com/contiv/client-go/pkg/util/httpstream"
 )
 
 // SpdyRoundTripper knows how to upgrade an HTTP request to one that supports

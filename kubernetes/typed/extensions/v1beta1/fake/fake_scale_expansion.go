@@ -17,9 +17,9 @@ limitations under the License.
 package fake
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/apis/extensions/v1beta1"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/testing"
+	"github.com/contiv/client-go/pkg/apis/extensions/v1beta1"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/testing"
 )
 
 func (c *FakeScales) Get(kind string, name string) (result *v1beta1.Scale, err error) {

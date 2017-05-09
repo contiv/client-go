@@ -22,13 +22,13 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/testapi"
-	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/util/flowcontrol"
-	"github.com/FlorianOtel/client-go/rest"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/testapi"
+	"github.com/contiv/client-go/pkg/apimachinery/registered"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/util/flowcontrol"
+	"github.com/contiv/client-go/rest"
 )
 
 func CreateHTTPClient(roundTripper func(*http.Request) (*http.Response, error)) *http.Client {

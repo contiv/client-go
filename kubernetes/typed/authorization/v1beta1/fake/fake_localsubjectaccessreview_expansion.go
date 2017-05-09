@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	authorizationapi "github.com/FlorianOtel/client-go/pkg/apis/authorization/v1beta1"
-	"github.com/FlorianOtel/client-go/testing"
+	authorizationapi "github.com/contiv/client-go/pkg/apis/authorization/v1beta1"
+	"github.com/contiv/client-go/testing"
 )
 
 func (c *FakeLocalSubjectAccessReviews) Create(sar *authorizationapi.LocalSubjectAccessReview) (result *authorizationapi.LocalSubjectAccessReview, err error) {

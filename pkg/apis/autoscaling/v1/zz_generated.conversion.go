@@ -21,10 +21,10 @@ limitations under the License.
 package v1
 
 import (
-	autoscaling "github.com/FlorianOtel/client-go/pkg/apis/autoscaling"
-	meta_v1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	conversion "github.com/FlorianOtel/client-go/pkg/conversion"
-	runtime "github.com/FlorianOtel/client-go/pkg/runtime"
+	autoscaling "github.com/contiv/client-go/pkg/apis/autoscaling"
+	meta_v1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	conversion "github.com/contiv/client-go/pkg/conversion"
+	runtime "github.com/contiv/client-go/pkg/runtime"
 	unsafe "unsafe"
 )
 

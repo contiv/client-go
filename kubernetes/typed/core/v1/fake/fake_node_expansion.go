@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	"github.com/FlorianOtel/client-go/testing"
+	"github.com/contiv/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/testing"
 )
 
 func (c *FakeNodes) PatchStatus(nodeName string, data []byte) (*v1.Node, error) {

@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"reflect"
 
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/conversion"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/types"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/conversion"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/types"
 
 	"github.com/golang/glog"
 )

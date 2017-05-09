@@ -20,15 +20,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/FlorianOtel/client-go/pkg/api/errors"
-	"github.com/FlorianOtel/client-go/pkg/apimachinery/registered"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/version"
-	"github.com/FlorianOtel/client-go/rest"
-	"github.com/FlorianOtel/client-go/rest/fake"
+	"github.com/contiv/client-go/pkg/api/errors"
+	"github.com/contiv/client-go/pkg/apimachinery/registered"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/version"
+	"github.com/contiv/client-go/rest"
+	"github.com/contiv/client-go/rest/fake"
 
-	"github.com/emicklei/go-restful/swagger"
+	"github.com/emicklei/go-restful-swagger12"
 	"github.com/stretchr/testify/assert"
 )
 

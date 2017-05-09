@@ -3,10 +3,10 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/meta"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/meta"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 type ExampleSpec struct {

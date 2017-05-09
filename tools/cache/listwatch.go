@@ -19,13 +19,13 @@ package cache
 import (
 	"time"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/meta"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	"github.com/FlorianOtel/client-go/pkg/fields"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/watch"
-	"github.com/FlorianOtel/client-go/rest"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/meta"
+	"github.com/contiv/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/fields"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/watch"
+	"github.com/contiv/client-go/rest"
 )
 
 // ListerWatcher is any object that knows how to perform an initial list and start a watch on a resource.

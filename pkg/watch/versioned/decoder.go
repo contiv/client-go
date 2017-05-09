@@ -19,9 +19,9 @@ package versioned
 import (
 	"fmt"
 
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/serializer/streaming"
-	"github.com/FlorianOtel/client-go/pkg/watch"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/serializer/streaming"
+	"github.com/contiv/client-go/pkg/watch"
 )
 
 // Decoder implements the watch.Decoder interface for io.ReadClosers that

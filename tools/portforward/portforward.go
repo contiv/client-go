@@ -27,10 +27,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/kubelet/server/portforward"
-	"github.com/FlorianOtel/client-go/pkg/util/httpstream"
-	"github.com/FlorianOtel/client-go/pkg/util/runtime"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/kubelet/server/portforward"
+	"github.com/contiv/client-go/pkg/util/httpstream"
+	"github.com/contiv/client-go/pkg/util/runtime"
 )
 
 // PortForwarder knows how to listen for local connections and forward them to

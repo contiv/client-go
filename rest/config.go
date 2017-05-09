@@ -29,14 +29,14 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	certutil "github.com/FlorianOtel/client-go/pkg/util/cert"
-	"github.com/FlorianOtel/client-go/pkg/util/flowcontrol"
-	"github.com/FlorianOtel/client-go/pkg/version"
-	clientcmdapi "github.com/FlorianOtel/client-go/tools/clientcmd/api"
+	"github.com/contiv/client-go/pkg/api"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	certutil "github.com/contiv/client-go/pkg/util/cert"
+	"github.com/contiv/client-go/pkg/util/flowcontrol"
+	"github.com/contiv/client-go/pkg/version"
+	clientcmdapi "github.com/contiv/client-go/tools/clientcmd/api"
 )
 
 const (

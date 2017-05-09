@@ -20,9 +20,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	"github.com/FlorianOtel/client-go/pkg/watch"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/watch"
 )
 
 // ensure the watch delivers the requested and only the requested items.

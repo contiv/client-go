@@ -25,10 +25,10 @@ import (
 
 	"github.com/golang/glog"
 
-	"github.com/FlorianOtel/client-go/pkg/api/meta"
-	"github.com/FlorianOtel/client-go/pkg/apimachinery"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/api/meta"
+	"github.com/contiv/client-go/pkg/apimachinery"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/util/sets"
 )
 
 var (

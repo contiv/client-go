@@ -19,9 +19,9 @@ limitations under the License.
 package install
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/apimachinery/announced"
-	"github.com/FlorianOtel/client-go/pkg/apis/componentconfig"
-	"github.com/FlorianOtel/client-go/pkg/apis/componentconfig/v1alpha1"
+	"github.com/contiv/client-go/pkg/apimachinery/announced"
+	"github.com/contiv/client-go/pkg/apis/componentconfig"
+	"github.com/contiv/client-go/pkg/apis/componentconfig/v1alpha1"
 )
 
 func init() {
@@ -29,7 +29,7 @@ func init() {
 		&announced.GroupMetaFactoryArgs{
 			GroupName:                  componentconfig.GroupName,
 			VersionPreferenceOrder:     []string{v1alpha1.SchemeGroupVersion.Version},
-			ImportPrefix:               "github.com/FlorianOtel/client-go/pkg/apis/componentconfig",
+			ImportPrefix:               "github.com/contiv/client-go/pkg/apis/componentconfig",
 			AddInternalObjectsToScheme: componentconfig.AddToScheme,
 		},
 		announced.VersionToSchemeFunc{

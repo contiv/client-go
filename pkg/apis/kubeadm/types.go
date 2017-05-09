@@ -17,7 +17,7 @@ limitations under the License.
 package kubeadm
 
 import (
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
 )
 
 type EnvParams struct {

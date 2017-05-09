@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 type notRegisteredErr struct {

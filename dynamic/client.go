@@ -26,17 +26,17 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/apis/meta/v1/unstructured"
-	"github.com/FlorianOtel/client-go/pkg/conversion/queryparams"
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/runtime/serializer"
-	"github.com/FlorianOtel/client-go/pkg/util/flowcontrol"
-	"github.com/FlorianOtel/client-go/pkg/watch"
-	"github.com/FlorianOtel/client-go/rest"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/v1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/apis/meta/v1/unstructured"
+	"github.com/contiv/client-go/pkg/conversion/queryparams"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/runtime/serializer"
+	"github.com/contiv/client-go/pkg/util/flowcontrol"
+	"github.com/contiv/client-go/pkg/watch"
+	"github.com/contiv/client-go/rest"
 )
 
 // Client is a Kubernetes client that allows you to access metadata

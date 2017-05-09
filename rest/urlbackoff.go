@@ -21,8 +21,8 @@ import (
 	"time"
 
 	"github.com/golang/glog"
-	"github.com/FlorianOtel/client-go/pkg/util/flowcontrol"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/util/flowcontrol"
+	"github.com/contiv/client-go/pkg/util/sets"
 )
 
 // Set of resp. Codes that we backoff for.

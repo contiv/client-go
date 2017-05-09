@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/api/v1"
 )
 
 func testIndexFunc(obj interface{}) ([]string, error) {

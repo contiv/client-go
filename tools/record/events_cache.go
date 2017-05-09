@@ -25,11 +25,11 @@ import (
 
 	"github.com/golang/groupcache/lru"
 
-	"github.com/FlorianOtel/client-go/pkg/api/v1"
-	metav1 "github.com/FlorianOtel/client-go/pkg/apis/meta/v1"
-	"github.com/FlorianOtel/client-go/pkg/util/clock"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
-	"github.com/FlorianOtel/client-go/pkg/util/strategicpatch"
+	"github.com/contiv/client-go/pkg/api/v1"
+	metav1 "github.com/contiv/client-go/pkg/apis/meta/v1"
+	"github.com/contiv/client-go/pkg/util/clock"
+	"github.com/contiv/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/util/strategicpatch"
 )
 
 const (

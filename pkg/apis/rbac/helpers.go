@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/FlorianOtel/client-go/pkg/api"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
-	"github.com/FlorianOtel/client-go/pkg/util/sets"
+	"github.com/contiv/client-go/pkg/api"
+	"github.com/contiv/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/util/sets"
 )
 
 func RoleRefGroupKind(roleRef RoleRef) schema.GroupKind {

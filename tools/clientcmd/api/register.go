@@ -17,8 +17,8 @@ limitations under the License.
 package api
 
 import (
-	"github.com/FlorianOtel/client-go/pkg/runtime"
-	"github.com/FlorianOtel/client-go/pkg/runtime/schema"
+	"github.com/contiv/client-go/pkg/runtime"
+	"github.com/contiv/client-go/pkg/runtime/schema"
 )
 
 // SchemeGroupVersion is group version used to register these objects

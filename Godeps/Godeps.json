@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/FlorianOtel/client-go",
+	"ImportPath": "github.com/contiv/client-go",
 	"GoVersion": "go1.7",
 	"GodepVersion": "v75",
 	"Deps": []
